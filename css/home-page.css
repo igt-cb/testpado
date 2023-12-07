@@ -1,0 +1,320 @@
+/* --- App layout changes: hide search box in app header --- */
+
+.Home_page .BaseMaster_searchBoxContainer {
+    display: none;
+}
+
+.Home_page .BaseMaster_contentContainer {
+    height: auto !important;
+}
+
+
+/* --- App layout changes end --- */
+
+.Home_page .BaseMaster_mainMenuContainer {
+    border-bottom: 0 none;
+    padding-top: 10px;
+}
+
+.Home_page .CHMenu_menuItem>a {}
+
+.Home_page .BaseMaster_profileLink {
+    margin-left: 50px;
+}
+
+.Home_customContent {
+    padding: 0;
+    margin: 0;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    height: calc(100vh - 75px);
+}
+
+.Home_customContent a,
+.Home_customContent a:visited,
+.Home_customContent a:active {
+    text-decoration: none;
+}
+
+.Home_customContent a:hover {
+    color: #00C3EF;
+}
+
+.searchContainer {
+    position: relative;
+}
+
+.searchContainer h1 {
+    text-align: center;
+    padding-bottom: 40px;
+    margin: 0;
+    font-size: 45px;
+    color: #00C3EF;
+    font-weight: 600;
+}
+
+.background {
+    height: 100%;
+    width: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+.background {
+    position: absolute;
+    z-index: -1;
+    background-image: url('../images/colorize-back.jpg');
+    background-position-y: 100%;
+}
+
+.fixedWidth {
+    max-width: 1170px;
+    margin: auto;
+}
+
+.searchContentContainer {
+    padding-top: 40px;
+    padding-bottom: 120px;
+}
+
+.searchBox {
+    width: 100%;
+    padding: 10px 30px;
+    background: white;
+    border: 0 none;
+    float: left;
+    height: 28px;
+    border-radius: 3px;
+    font-size: 20px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 600;
+}
+
+.searchBox::placeholder {
+    color: #000;
+}
+
+.btnSearch {
+    position: absolute;
+    height: 100%;
+    width: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    right: 0;
+    border: none;
+    padding: 0;
+    background-color: transparent;
+    cursor: pointer;
+    padding-right: 20px;
+}
+
+.btnSearch i {
+    font-size: 2em;
+    padding: 11px 20px;
+    color: #192150;
+    transition: 0.3s;
+}
+
+.btnSearch:hover i {
+    color: #00C3EF;
+}
+
+.searchCenteringContainer {
+    width: 100%;
+    max-width: 500px;
+    margin: auto;
+    position: relative;
+}
+
+.searchBoxContainer {
+    padding-right: 60px;
+    overflow: hidden;
+    border-radius: 3px;
+}
+
+.searchBoxContainer:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.navContainer {
+    background: white;
+    color: white;
+    padding-top: 60px;
+}
+
+.Home_customContent .navContainer a {
+    color: #192150;
+}
+
+.linksList {
+    list-style-type: none;
+    padding-left: 0px;
+    text-align: left;
+    margin: 0;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    line-height: 1.5;
+}
+
+.linksList li,
+.pubItem {
+    margin-bottom: 12px;
+}
+
+.linksList .pubItem {
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    width: 340px;
+    height: 109px;
+    margin-left: 16px;
+    margin-right: 16px;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    border-radius: 8px;
+    background: #FFFFFF;
+    padding: 10px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.pubItem .pubItemTitle {
+    margin: 0 0 10px;
+    font-weight: 800;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+.linksList .pubItem:hover h3 {}
+
+.linksList .pubItem:hover {
+    border-color: #99E7F9;
+    background-color: #99E7F9;
+}
+
+img.pubIcon {
+    height: 50px;
+    margin-right: 16px;
+}
+
+.footer {
+    color: #696969;
+    background: white;
+    font-size: 1em;
+    padding-bottom: 30px;
+    text-align: left;
+    line-height: 45px;
+    padding-top: 60px;
+    margin-top: auto;
+}
+
+.footer a {
+    color: black;
+}
+
+.footer:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.footerContentContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contactInfo {
+    white-space: nowrap;
+}
+
+.followUsNavList,
+.followUsNavListItem {
+    display: inline-block;
+}
+
+.followUsNavList {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.followUs {
+    float: right;
+}
+
+.followUs span {
+    margin-right: 4px;
+}
+
+.followUs i {
+    color: gray;
+    font-size: 1.2em;
+    border-radius: 50%;
+    text-align: center;
+    margin-left: 5px;
+}
+
+
+/* --- Responsive styles --- */
+
+.nav2ColOuter {
+    /* Two columns per screen, default */
+    float: left;
+    width: 50%;
+}
+
+
+/* Phone to portrait tablet */
+
+@media (max-width: 767px) {
+    .nav2ColOuter {
+        /* One column per screen */
+        width: 100%;
+    }
+    .searchContentContainer {
+        padding-top: 40px;
+        padding-bottom: 100px;
+    }
+    .linksList {
+        flex-direction: column;
+    }
+    .linksList .pubItem {
+        width: 100%;
+        max-width: 500px;
+        margin-left: auto;
+        margin-right: auto;
+        height: auto;
+        min-height: 109px;
+    }
+    .footerContentContainer {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        line-height: 30px;
+    }
+    .followUs {
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 979px) {}
+
+@media (max-width: 1200px) {
+    .fixedWidth {
+        max-width: none;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}.background{background-image: url('../images/Copado%20Docs%20Background.jpg') !important;}.backgroundGlass{background:rgba(255,255,255,.7) !important;}

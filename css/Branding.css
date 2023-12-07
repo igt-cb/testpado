@@ -1,0 +1,440 @@
+/* This is your portal's Branding CSS file. You can find information on ClickHelp branding in the following topic:
+http://doc.clickhelp.co/articles/clickhelp-documentation/branding-general-information
+*/
+
+
+/* font-family: 'Nunito Sans', sans-serif;
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,300;1,400;1,600;1,700&display=swap');
+
+/* font-family: 'Roboto', sans-serif;
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,9001,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+.BaseMaster_profileLink {
+  display: none;
+}
+
+.BaseMaster_mainMenuContainer .BaseMaster_profileLink .BaseMaster_link {
+  padding: 13px 25px;
+  border: solid 1px;
+  border-radius: 5px;
+  color: #00C3EF;
+  border-color: #00C3EF;
+  transition: 0.3s;
+}
+
+.BaseMaster_mainMenuContainer .BaseMaster_profileLink .BaseMaster_link:hover {
+  background: #00C3EF;
+  color: #FFF;
+}
+
+.TocTreeLight_withFilter .TocTreeLight_headerContainer {
+  /* display: none;
+  */
+}
+
+.ArticleEditor_projectName::before {
+  content: "\f07b";
+  font-family: "Font Awesome 5 Pro";
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  line-height: 1;
+  font-weight: 400;
+  padding-right: 10px;
+}
+
+.ArticleSelector_container {
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+.Login_box a {
+  color: #192150 !important;
+}
+
+.TocTreeLight_treeContainer .CHTree_desktopView .CHTree_nodeBtnExpand i::before {
+  content: "\f067";
+}
+
+.TocTreeLight_treeContainer .CHTree_desktopView .CHTree_nodeBtnCollapse i::before {
+  content: "\f068";
+}
+
+.TocTreeLight_treeContainer .CHTree_desktopView .CHTree_btn.CHTree_nodeBtnCollapse {
+  cursor: pointer;
+  transform: none !important;
+}
+
+.TocTreeLight_treeContainer .CHTree_desktopView .CHTree_btn {
+  font-size: 13px;
+  padding-left: 5px;
+}
+
+a.ForgotPassword_goToHomePageLink,
+a.ForgotPassword_goToHomePageLink:visited {
+  color: #192150 !important;
+}
+
+.BaseMaster_contentContainer .Articles_nav {
+  z-index: 1;
+}
+
+.TocTreeLight_filterBox .QuickFilterBox_editBox input {
+  color: black;
+  font-family: 'Nunito Sans';
+  font-size: 14px;
+}
+
+.BaseMaster_offCanvasContainer .CHMenu_menu .CHMenu_menuItem[data-item-id="menuItemLogin"] {
+  display: none;
+}
+
+
+/* === Application header / main menu styles === */
+
+
+/* General styles */
+
+.dxcaLoadingPanel_DefaultTheme .dxlp-loadingImage,
+.dxlpLoadingPanel_DefaultTheme .dxlp-loadingImage,
+.dxlpLoadingPanelWithContent_DefaultTheme .dxlp-loadingImage {
+  /* Uncomment to change the color of all "Loading..." animations to blue. The color does not have to be the same for all the properties */
+  /*border-left-color: #0072C6 !important;
+  border-right-color: #0072C6 !important;
+  border-bottom-color: #0072C6 !important;
+  */
+}
+
+.BaseMaster_mainMenuContainer {
+  /* Uncomment the following lines to get custom header background image */
+  /*background-image: url('/resources/Storage/Templates/Projects/Minimalist/escheresque.png') !important;
+  background-repeat: repeat !important;
+  */
+  /* Uncomment the following lines to get light gray header background */
+  /* background-color: #efefef !important;
+  background-image: none !important;
+  */
+}
+
+.CHMenu_menuItem a,
+.BaseMaster_profileLink {
+  /* This line makes header links blue for readers */
+  /*color: #2C72C8 !important;
+  */
+  /* Uncomment the following line to get red header links */
+  /*color: red !important;
+  */
+}
+
+.CHMenu_menuItem:hover a,
+
+/* The two extra selectors below are for the "Log In" / user profile link - you can style them separately if needed */
+
+.BaseMaster_profileLink:hover,
+.BaseMaster_profileLink:hover a {
+  /* These lines make header links white with blue background on hover */
+  /*color: white !important;
+  background-color: #0072C6 !important;
+  */
+  /* Uncomment the following line to get black header links with yellow background on hover */
+  /*color: black !important;
+  background-color: yellow !important;
+  */
+}
+
+.dxm-hovered,
+.dxm-hovered a.dx {
+  /* Uncomment to make the My Profile and Log Out dropdown menu items blue and white on hover for Power Readers */
+  /*color: white !important;
+  background-color: #0072C6 !important;
+  */
+}
+
+
+/* Mobile-specific styles */
+
+.BaseMaster_offCanvasHeader {
+  /* Uncomment the following line to get light gray background in mobile menu header */
+  /* background-color: #efefef !important;
+  */
+}
+
+.BaseMaster_hamburgerMenuIcon:hover {
+  /* Uncoment the following lines to make the mobile "hamburger" button hover color blue and white */
+  /*background-color: #0072C6 !important;
+  color: white !important;
+  */
+}
+
+.CHMenu_menuItemSelected {
+  /* Change the underline color for the selected mobile menu item.
+  Also affects selected item in Web Help navigation panel */
+  /*border-bottom-color: #0072C6 !important;
+  */
+}
+
+.dxeFocused_DefaultTheme {
+  /* Change the focused edit box border color to blue */
+  /*border-color: #0072C6 !important;
+  */
+}
+
+.dxRipple {
+  /* This changes the color of the ripple which appears on clicks to gray */
+  background-color: rgba(180, 180, 180, .4) !important;
+}
+
+
+/* Web Help */
+
+
+/* Navigation panel */
+
+.WebHelp_navMenu {
+  /* Uncomment the following line to get light gray navigation panel background */
+  /* background-color: #efefef !important;
+  */
+}
+
+
+/* === TOC styles === */
+
+.ArticleSelector_tabContent {
+  /* Uncomment the line below to make the TOC / Index navigation panel have light-gray background */
+  /*background-color: #efefef !important;
+  */
+}
+
+.TocTreeLight_container .CHTree_nodeFocused {
+  /* Set background color for the focused TOC tree node */
+  /*background-color: #0072C6 !important;
+  color: white !important;
+  */
+}
+
+.TocTree_tocNode.TocTreeLight_imgTopic {
+  /* Uncomment the following lines to replace the default topic icon with an icon from Storage */
+  /*background-image: url('/resources/Storage/info.png') !important;
+  */
+}
+
+.TocTree_tocNode.TocTreeLight_imgBook {
+  /* Uncomment the following lines to replace the default "book" folder icon with an icon from Storage */
+  /*background-image: url('/resources/Storage/info.png') !important;
+  */
+}
+
+.TocTree_tocNode.TocTreeLight_imgBook_open {
+  /* Uncomment the following lines to replace the default "open book" folder icon with an icon from Storage */
+  /*background-image: url('/resources/Storage/warning.png') !important;
+  */
+}
+
+
+/* === Tab styles === */
+
+.dxtc-activeTab a,
+.dxtc-tabHover a {
+  /* Set background color for active / hovered tabs */
+  /*background-color: #0072C6 !important;
+  */
+}
+
+.dxtc-leftIndent,
+.dxtc-activeTab,
+.dxtc-tab,
+.dxtc-spacer,
+.dxtc-rightIndent,
+.dxtc-sbWrapper,
+.dxtc-sbIndent,
+.dxtc-sbSpacer {
+  /* Set color for the base border lines near the tabs */
+  /*border-top-color: #0072C6 !important;
+  */
+}
+
+
+/* === Topic header styles === */
+
+
+/* NOTE: You can also change header visibility and control elements displayed in it via the "Reader Experience section of global or project settings */
+
+.ArticleEditor_header {
+  /* Uncomment the following lines to get black topic header with white text */
+  /*background-color: black !important;
+  color: white !important;
+  */
+}
+
+.ArticleEditor_title {
+  /* Uncomment the following line to get red topic title */
+  /*color: red !important;
+  */
+}
+
+.CHImageButton:hover {
+  /* Uncomment the following line to set hover background color for image buttons like Print or Remove Highlighting */
+  /*background-color: #0072C6 !important;
+  */
+}
+
+.dxeListBoxItemSelected_DefaultTheme,
+.dxeListBoxItemHover_DefaultTheme.dxeListBoxItemSelected_DefaultTheme {
+  /* Set background color for the selected publication in the publications dropdown */
+  /*background-color: #0072C6;
+  color: white;
+  */
+}
+
+
+/* === "Was It Helpful?" widget styles === */
+
+.ArticleEditor_btnWasItHelpful {
+  /* Set colors for the Yes/No buttons */
+  /*background-color: #0072C6 !important;
+  color: white !important;
+  border:  none !important;
+  */
+}
+
+
+/* === Search page styles === */
+
+
+/* The following rules make the search result links, the Search button and the filter tree have blue background with black text. */
+
+.BaseMaster_mainMenuContainer .dxeFocused_DefaultTheme,
+.BaseMaster_contentContainer .dxeFocused_DefaultTheme {
+  /* Set border color for focused Search edit boxes in the app header and on the Search page */
+  /*border-color: #0072C6;
+  */
+}
+
+
+/* Set colors for the Search box completion window and its items */
+
+.SearchControl_results a,
+.SearchBox_completionWindow .SearchBox_moreResultsItem a {
+  /*color: #2C72C8 !important;
+  */
+}
+
+.SearchBox_completionWindow .CHListBox_item:hover {
+  /*background-color: #0072C6 !important;
+  */
+}
+
+.SearchBox_completionWindow .CHListBox_item:hover .ArticleCompletionBox_item,
+.SearchBox_completionWindow .CHListBox_item:hover .ArticleCompletionBox_projectName,
+.SearchBox_completionWindow .CHListBox_item:hover a {
+  /*color: white !important;
+  */
+}
+
+
+/* Set colors for the Search button */
+
+a.SearchBox_button {
+  /*color: white !important;
+  background-color: #0072C6 !important;
+  */
+}
+
+a.SearchBox_button:hover {
+  /*color: black !important;
+  background-color: #E7E3E7 !important;
+  */
+}
+
+.SearchControl_filterByContainer .dxeButtonEditButtonHover_DefaultTheme,
+.SearchControl_filterByContainer .dxeButtonEditButtonPressed_DefaultTheme {
+  /* Change the filter dropdown arrow color on hover */
+  /*background-color: #0072C6 !important;
+  */
+}
+
+
+/* Set colors for projects filter on the Search page */
+
+.ProjectsTreeDropdown_dropDownContainer .CHTree_nodeFocused {
+  /* Set the focused node color in the project filter dropdown on the Search page */
+  /*background-color: #0072C6 !important;
+  color: white !important;
+  */
+}
+
+.CHTree_node:hover,
+.CHListBox_item:hover {
+  /*background-color: #E7E3E7 !important;
+  color: black !important;
+  */
+}
+
+/* Fix for the Command + F Search Functionality 
+
+.Articles_page body,
+.Articles_page html
+{
+  overflow: hidden;
+}
+*/
+/* Fix for Side Table of Contents */
+
+.DeepSpace_pnlRightSidebarStickyContent {
+    height: 80vh;
+    overflow: auto !important;
+}
+
+
+/* Hide Right-Side Feedback Widget */
+
+#pnlContainer_cphMain_pnlRightSidebar > div > div.ArticleEditor_readerFeedbackContainer{
+  display:none;
+}
+
+
+.desktopView.Articles_page body,
+.desktopView.Articles_page html
+{
+  overflow: hidden;
+}
+
+/* Index Keywords */
+
+button#pnlContainer_cphMain_articleSelector_tocTreeLight_btnShowIndex {
+    background-color: #192150;
+}
+
+button#pnlContainer_cphMain_articleSelector_indexViewer_pnlCallback_btnShowContents {
+    background-color: #192150;
+}
+
+.IndexViewerLight_menuContainer .IndexViewerLight_quickFilterContainer input {
+  color: black;
+  font-family: 'Nunito Sans';
+  font-size: 14px;
+}
+.IndexViewerLight_menuContainer .IndexViewerLight_quickFilterContainer input::placeholder {
+  color: black;
+  font-family: 'Nunito Sans';
+  font-size: 14px;
+  text-transform:capitalize;
+}
+
+/* Uncomment the following two rules to specify different styles for odd and even search results */
+
+
+/*.SearchResults_itemOdd
+{
+background-color: #EFEFEF !important;
+}
+
+.SearchResults_itemEven
+{
+background-color: white !important;
+}
+*/

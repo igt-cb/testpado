@@ -1,0 +1,763 @@
+
+
+<!DOCTYPE html>
+<html id="html" lang="en-us" class=" noMainMenu extUser_page noLoginLink Home_page">
+<head><link rel="stylesheet" type="text/css" href="DXR_28.axd"><link href="css/common-ui.css" rel="stylesheet" type="text/css"><script src="js/Branding.js" type="text/javascript"></script><title>
+	Online Documentation Portal
+</title><script type="text/javascript">//<!--
+window['baseMasterPageParams']={"initialPortalUiExtId":null,"culturesByVisiblePubExtIds":{"copado-developer-center-publication":"en-US","copado-methodology-temp":"en-US","copado-ci-cd-publication":"en-US","copadogpt":"en-US","copado-robotic-testing-publication":"en-US"},"defaultMobileWidthBreakpointPx":979,"portalUiBrandingStyleUrlMask":"/dynamic-styles/portal-ui/PROJECT_ID/?t=638375387866140490","pubsWithNonGlobalPortalUiExtIds":[],"readerUiLanguageCookieName":"ch_lang","readerUiLangName":"en-us","isHomePage":true,"isArticlesPage":false,"breadcrumbNavName":"CI__338626478","readerUiPreviewProjectExIds":[],"pubsExtIds":["copado-developer-center-publication","copado-methodology-temp","copado-ci-cd-publication","copadogpt","copado-robotic-testing-publication"],"projWithNonGlobalPortalUiExtIds":[],"readerUiPreviewParamName":"readerUiPreview","readerUiPreviewParamValueEnabled":"1","readerUiPreviewParamValueDisabled":"0","isInternalUser":false,"curUserName":null,"curUserRoles":[],"curUserEmail":null,"curUserFullName":"","licenseStartDate":"2021-01-01T00:00:00","userProfileDontShowAgainSettingsServiceUrl":"/profile/dont-show-again/"};window['baseMasterEventHandlers'] = {};
+//--></script><script id="dxss_txtLoginLinkMaskDeclaration" type="text/javascript">//<!--
+var baseMasterLoginUrlMask = '/login/?ReturnUrl=RETURN_URL&error=no';
+//--></script><script type="text/javascript">//<!--
+var baseMasterSearchUrlMask = '/search/#q/SEARCH_QUERY/p/PROJECT_EXT_ID';
+//--></script><script type="text/javascript">//<!--
+var _gaLegacyIds=['G-44M07GG5LV','G-44M07GG5LV','G-44M07GG5LV','G-44M07GG5LV','G-44M07GG5LV'];
+//--></script><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><meta name="viewport" content="width=device-width, initial-scale=1.0">  
+  <!-- ClickHelp version: blossom 2023.11.21.1628, cv: 23.1.4.23213 -->
+  <link id="cphHeader_lnkHomeDynamicStyles" rel="stylesheet" href="css/home-page.css">
+  <link id="cphHeader_lnkCanonical" rel="canonical" href="https://docs.copado.com">  
+  <link rel="alternate" hreflang="en-US" href="https://docs.copado.com/home/en-us/">    
+  <meta name="google-site-verification" content="0Br5D30X7On3MKdj2pyR_oPcpumehWk0QdFqVOHIX8s">    
+  <script type="text/javascript">//<!--
+window['pageParams']={"pnlCustomizeName":"pnlContainer_cphMain_pnlCustomize"}
+//--></script>
+  <style type="text/css">
+    div.BaseMaster_contentContainer
+    {
+      overflow: auto !important;
+      margin-top: 0;
+    }
+
+    div.BaseMaster_mainMenuContainer
+    {
+      box-shadow: none;
+    }
+  </style>  
+<link rel="shortcut icon" href="images/Copado%20Logo_Favicon.png"><link rel="icon" href="images/Copado%20Logo_Favicon.png"><link id="lnkPortalUiBrandingStyle" href="css/portal-ui.css" rel="stylesheet" type="text/css"><link id="lnkPortalBrandingStyle" href="css/Branding.css" rel="stylesheet" type="text/css"><script src="js/b1180683102.js" type="text/javascript"></script></head>
+<body id="body">
+            
+  <form method="post" action="./" id="ctl05" onkeydown="supressSubmitOnEnter(event);">
+<input type="hidden" name="hiJSHandlerStorage" id="hiJSHandlerStorage" value="H4sIAAAAAAAEAI1Ui3KEIAzMB/WfOj4oZytKAe+uf9/NcjcHop0OI0J2STYhOspdJonyLp0seN/ESBCLeYF9g6XHnDBWWN5kLPgB1kkGmcEegDvxXKtV2T3m++7MRk//Y/fgRzAc34nKavyl7AKOoyWrr5kD8JnrdBBHUceMt8ae4Mlg1HZV7xg3Yhdg92DGimXkSp+q8Ae42eEWilbmOBfcmnNhpDq65mGpLOvo6WWfk9ZsgsejvMp6eqwttT2rXTJX+cAY2BtX4p5rAxUlz4PpEcWjfzTqiP2tYWi/aLaat8VT44HWQC2RWS47NZnzyW5LQLumNjUjHt7eGWek3T+0173+jdy0079QjQnacu3aqqunDntFNzK1WhbrZ5XN42tJrEd5NvJsYNe1nlu0/IbOuQO7NDG3+ZT1ur+/vOrtJf4jtONzDX4Bn1hZDEAEAAA=">
+<input type="hidden" name="__VS" id="__VS" value="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">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value>
+
+<script type="text/javascript">//<!--
+window['masterPagesBaseParams']={"closeNotificationText":"Close"};
+//--></script><script type="text/javascript">//<!--
+if(window.lazyLoadFontAwesome){lazyLoadFontAwesome()}
+//--></script>
+    <script id="dxis_274780123" src="DXR_27.axd" type="text/javascript"></script><div class="dxpnlControl_DefaultTheme CHOffCanvasPanel_container BaseMaster_container" id="pnlContainer">
+	
+          
+          <input name="ctl00$pnlContainer$hiCurBrandingProjectExtId" type="hidden" id="hiCurBrandingProjectExtId">
+          <input name="ctl00$pnlContainer$hiPortalUiBrandingStyleUrlMask" type="hidden" id="hiPortalUiBrandingStyleUrlMask" value="/dynamic-styles/portal-ui/PROJECT_ID/?t=638375387866140490">
+          
+          <script id="dxss_GlobalEvents" type="text/javascript">//<!--
+window['globalEvents']=new GlobalEvents({"Searching":["onMasterSearching(s,e);"],"SearchReported":["onMasterSearchReported(s,e);"],"BeforeSendRequest":["onMasterBeforeSendRequest(s,e)"],"MainMenuItemsLoaded":["onMasterMainMenuItemsLoaded(s,e)"],"ArticlePropertyChanged":["window[\u0027CI__94826354\u0027].onArticlePropertyChanged(s,e);"],"SearchPopupOpening":["if(window[\u0027CI__1472527818\u0027]){window[\u0027CI__1472527818\u0027].openPopup(s,e);}"],"DoSearch":["if(window[\u0027CI__1881927048\u0027]){window[\u0027CI__1881927048\u0027].onGlobalDoSearch(s,e);}"]});
+//--></script>
+
+          <div class="BaseMaster_containerLoadingOverlay" style="display: none">
+          </div>
+          
+          <script>
+            if (baseMasterPageParams.callbackScheduledForProjectExtId)
+            {
+              showContainerBaseMasterLoader();
+            }
+          </script>
+          
+
+          
+
+          
+
+          <div class="CHOffCanvasPanel_content">
+            <nav id="pnlOffCanvasNav" class="BaseMaster_offCanvasContainer CHOffCanvasPanel_nav noselect">
+              <div id="pnlOffCanvasHeader" class="BaseMaster_offCanvasHeader">
+                <div class="BaseMaster_offCanvasHeaderFirstLine clearfix">
+                  <button id="pnlContainer_btnHamburgerOffCanvas_btnMobileMenu" type="button" class="CHHamburger_container CHHamburger_container-htla BaseMaster_hamburgerMenuIcon isActive" title="Hide mobile menu" aria-label="Hide mobile menu"><span></span></button><script id="dxss_CI_2080975600" type="text/javascript">//<!--
+window['CI_2080975600']=new ButtonHamburger({"showMobileMenuText":"Show mobile menu","hideMobileMenuText":"Hide mobile menu","btnMobileMenuName":"pnlContainer_btnHamburgerOffCanvas_btnMobileMenu"});
+//--></script>
+                  <a href="en-us.html" id="pnlContainer_portalLogoOffCanvas_lnkLogo" style="display:;" class="PortalLogo_container"> 
+  <img id="pnlContainer_portalLogoOffCanvas_imgLogo" class="BaseMaster_imgLogo" alt="Logo" src="images/Copado-Logo_All-Blue.png">
+</a><script id="dxss_CI_1923310018" type="text/javascript">//<!--
+window['CI_1923310018']=new PortalLogo({"lnkLogoName":"pnlContainer_portalLogoOffCanvas_lnkLogo","imgLogoName":"pnlContainer_portalLogoOffCanvas_imgLogo","fileUrlMask":"/resources/FILE_NAME"});
+//--></script>
+                  <div class="GoogleTranslateWidget_container" id="google_translate_element_mobile">
+                  </div>
+                  <div id="pnlContainer_cmbReaderUiLanguageSelector_pnlContainer" class="ReaderUiLanguageSelector_container ReaderUiLanguageSelector_containerHidden">
+  <i class="fal fa-globe ReaderUiLanguageSelector_icon"></i>
+  
+  <div id="pnlContainer_cmbReaderUiLanguageSelector_cmbLanguage_pnlWidthTester" class="LightComboBox_pnlWidthTester"></div>
+<table id="pnlContainer_cmbReaderUiLanguageSelector_cmbLanguage_comboBox_LP" class="dxeLoadingPanel_DefaultTheme dxlpLoadingPanel_DefaultTheme" cellspacing="0" cellpadding="0" style="left:0px;top:0px;z-index:30000;display:none;">
+		<tr>
+			<td class="dx"><span id="pnlContainer_cmbReaderUiLanguageSelector_cmbLanguage_comboBox_TL">Loading&hellip;</span></td>
+		</tr>
+	</table><div id="pnlContainer_cmbReaderUiLanguageSelector_cmbLanguage_comboBox_LD" class="dxeLoadingDiv_DefaultTheme dxlpLoadingDiv_DefaultTheme dx-ft dxMSTouchDraggable" style="left:0px;top:0px;z-index:29999;display:none;position:absolute;">
+
+	</div><table class="dxeButtonEditSys dxeButtonEdit_DefaultTheme LightComboBox_container ReaderUiLanguageSelector_combobox" cellspacing="1" cellpadding="0" id="pnlContainer_cmbReaderUiLanguageSelector_cmbLanguage_comboBox" style="cursor:pointer;">
+		<tr>
+			<td style="display:none;"><input id="pnlContainer_cmbReaderUiLanguageSelector_cmbLanguage_comboBox_VI" name="pnlContainer_cmbReaderUiLanguageSelector_cmbLanguage_comboBox_VI" type="hidden" value="https://docs.copado.com/home/en-us/"></td><td class="dxeIIC" valign="middle" style="padding-left:0px;padding-top:0px;padding-bottom:0px;display:none;"><img src="DXR.axd" alt></td><td class="dxic" width="100%" style="padding-left:2px;padding-right:2px;padding-top:0px;padding-bottom:0px;"><input class="dxeEditArea_DefaultTheme dxeEditAreaSys dxeHideDefaultIEClearBtnSys" id="pnlContainer_cmbReaderUiLanguageSelector_cmbLanguage_comboBox_I" name="ctl00$pnlContainer$cmbReaderUiLanguageSelector$cmbLanguage$comboBox" readonly="readonly" onchange="ASPx.ETextChanged(&#39;pnlContainer_cmbReaderUiLanguageSelector_cmbLanguage_comboBox&#39;)" value="English (United States)" type="text" style="cursor:pointer;"></td><td id="pnlContainer_cmbReaderUiLanguageSelector_cmbLanguage_comboBox_B-1" class="dxeButton dxeButtonEditButton_DefaultTheme LightComboBox_button" style="user-select:none;-khtml-user-select:none;-ms-user-select:none;"><img id="pnlContainer_cmbReaderUiLanguageSelector_cmbLanguage_comboBox_B-1Img" src="images/empty.png" alt="Dropdown arrow" height="16" width="16"></td>
+		</tr>
+	</table><div id="pnlContainer_cmbReaderUiLanguageSelector_cmbLanguage_comboBox_DDD_PW-1" class="dxpcDropDown_DefaultTheme dxpclW dxpc-ddSys dxdd-root" style="z-index:10000;display:none;visibility:hidden;">
+		<div class="dxpc-mainDiv dxdd-list dxpc-shadow">
+			<div class="dxpc-contentWrapper">
+				<div class="dxpc-content">
+					<table class="dxeListBox_DefaultTheme" cellspacing="0" cellpadding="0" id="pnlContainer_cmbReaderUiLanguageSelector_cmbLanguage_comboBox_DDD_L" style="border-collapse:separate;">
+						<tr>
+							<td valign="top"><div id="pnlContainer_cmbReaderUiLanguageSelector_cmbLanguage_comboBox_DDD_L_D" class="dxlbd" style="overflow:auto;">
+								<input id="pnlContainer_cmbReaderUiLanguageSelector_cmbLanguage_comboBox_DDD_L_VI" type="hidden" name="ctl00$pnlContainer$cmbReaderUiLanguageSelector$cmbLanguage$comboBox$DDD$L"><table cellspacing="0" cellpadding="0" style="border-collapse:separate;visibility:hidden!important;display:none!important;">
+									<tr id="pnlContainer_cmbReaderUiLanguageSelector_cmbLanguage_comboBox_DDD_L_LBI-1" class="dxeListBoxItemRow_DefaultTheme">
+										<td id="pnlContainer_cmbReaderUiLanguageSelector_cmbLanguage_comboBox_DDD_L_LBII" class="dxeListBoxItem_DefaultTheme">&nbsp;</td>
+									</tr>
+								</table><table id="pnlContainer_cmbReaderUiLanguageSelector_cmbLanguage_comboBox_DDD_L_LBT" cellspacing="0" cellpadding="0" width="100%" style="border-collapse:separate;">
+
+								</table>
+							</div></td>
+						</tr>
+					</table><script id="dxss_1323784009" type="text/javascript">
+<!--
+ASPx.AddReadOnlyItems('pnlContainer_cmbReaderUiLanguageSelector_cmbLanguage_comboBox_DDD_L',[[['dxeReadOnly_DefaultTheme LightComboBox_containerReadOnly'],[''],['']]]);
+ASPx.createControl(ASPxClientListBox,'pnlContainer_cmbReaderUiLanguageSelector_cmbLanguage_comboBox_DDD_L','',{'uniqueID':'ctl00$pnlContainer$cmbReaderUiLanguageSelector$cmbLanguage$comboBox$DDD$L','scStates':4,'scPostfix':'DefaultTheme','stateObject':{'CustomCallback':''},'savedSelectedIndex':0,'isSyncEnabled':false,'isComboBoxList':true,'hasSampleItem':true,'hoverClasses':['dxeListBoxItemHover_DefaultTheme'],'selectedClasses':['dxeListBoxItemSelected_DefaultTheme'],'disabledClasses':['dxeDisabled_DefaultTheme'],'itemsInfo':[{'value':'https://docs.copado.com/home/en-us/','text':'English (United States)'}]},{'SelectedIndexChanged':function (s, e) { ASPx.CBLBSelectedIndexChanged('pnlContainer_cmbReaderUiLanguageSelector_cmbLanguage_comboBox', e); },'ItemClick':function (s, e) { ASPx.CBLBItemMouseUp('pnlContainer_cmbReaderUiLanguageSelector_cmbLanguage_comboBox', e); }},null,{'decorationStyles':[{'key':'F','className':'dxeFocused_DefaultTheme','cssText':''}]});
+
+//-->
+</script>
+				</div>
+			</div>
+		</div>
+	</div><script id="dxss_1304283129" type="text/javascript">
+<!--
+ASPx.AddHoverItems('pnlContainer_cmbReaderUiLanguageSelector_cmbLanguage_comboBox_DDD',[[['dxpc-closeBtnHover'],[''],['HCB-1']]]);
+ASPx.createControl(ASPxClientPopupControl,'pnlContainer_cmbReaderUiLanguageSelector_cmbLanguage_comboBox_DDD','',{'uniqueID':'ctl00$pnlContainer$cmbReaderUiLanguageSelector$cmbLanguage$comboBox$DDD','adjustInnerControlsSizeOnShow':false,'popupAnimationType':'slide','closeAction':'CloseButton','popupHorizontalAlign':'LeftSides','popupVerticalAlign':'Below','isPopupPositionCorrectionOn':false},{'Shown':function (s, e) { ASPx.DDBPCShown('pnlContainer_cmbReaderUiLanguageSelector_cmbLanguage_comboBox', e); }});
+
+//-->
+</script><script id="dxss_1843680904" type="text/javascript">
+<!--
+ASPx.AddHoverItems('pnlContainer_cmbReaderUiLanguageSelector_cmbLanguage_comboBox',[[['dxeButtonEditButtonHover_DefaultTheme'],[''],['B-1']]]);
+ASPx.RemoveHoverItems('pnlContainer_cmbReaderUiLanguageSelector_cmbLanguage_comboBox',[[['B-100']]]);
+ASPx.AddPressedItems('pnlContainer_cmbReaderUiLanguageSelector_cmbLanguage_comboBox',[[['dxeButtonEditButtonPressed_DefaultTheme'],[''],['B-1']]]);
+ASPx.RemovePressedItems('pnlContainer_cmbReaderUiLanguageSelector_cmbLanguage_comboBox',[[['B-100']]]);
+ASPx.AddDisabledItems('pnlContainer_cmbReaderUiLanguageSelector_cmbLanguage_comboBox',[[['dxeDisabled_DefaultTheme'],[''],['','I']],[['dxeDisabled_DefaultTheme dxeButtonDisabled_DefaultTheme'],[''],['B-1'],,[[{'spriteCssClass':'dxEditors_edtDropDownDisabled_DefaultTheme'}]],['Img']]]);
+ASPx.RemoveDisabledItems('pnlContainer_cmbReaderUiLanguageSelector_cmbLanguage_comboBox',[[['B-100'],]]);
+ASPx.AddReadOnlyItems('pnlContainer_cmbReaderUiLanguageSelector_cmbLanguage_comboBox',[[['dxeReadOnly_DefaultTheme LightComboBox_containerReadOnly'],[''],['','I']]]);
+ASPx.createControl(ASPxClientComboBox,'pnlContainer_cmbReaderUiLanguageSelector_cmbLanguage_comboBox','CI__1253539837',{'callBack':function(arg) { WebForm_DoCallback('ctl00$pnlContainer$cmbReaderUiLanguageSelector$cmbLanguage$comboBox',arg,ASPx.Callback,'pnlContainer_cmbReaderUiLanguageSelector_cmbLanguage_comboBox',ASPx.CallbackError,true); },'uniqueID':'ctl00$pnlContainer$cmbReaderUiLanguageSelector$cmbLanguage$comboBox','autoCompleteAttribute':{'name':'autocomplete','value':'off'},'incrementalFilteringMode':'None','lastSuccessValue':'https://docs.copado.com/home/en-us/','islastSuccessValueInit':true},{'Init':function(s,e){window['CI__1755741567'].onComboBoxInit(s,e);},'TextChanged':function(s,e){window['CI__1755741567'].onComboBoxSelectedIndexChanged(s,e);},'DropDown':function(s,e){window['CI__1755741567'].onComboBoxDropdown(s,e);},'CloseUp':function(s,e){window['CI__1755741567'].onComboBoxCloseUp(s,e);},'QueryCloseUp':function(s,e){window['CI__1755741567'].onComboBoxQueryCloseUp(s,e);},'SelectedIndexChanged':function(s,e){window['CI__1755741567'].onComboBoxSelectedIndexChanged(s,e);}},null,{'decorationStyles':[{'key':'F','className':'dxeFocused_DefaultTheme','cssText':''}]});
+
+//-->
+</script><script id="dxss_CI__1755741567" type="text/javascript">//<!--
+window['CI__1755741567']=new LightComboBox({"comboBoxName":"CI__1253539837","ariaLabelText":"Reader User Interface Language","pnlWidthTesterName":"pnlContainer_cmbReaderUiLanguageSelector_cmbLanguage_pnlWidthTester","maskClientRegExPattern":"\\s*\\([^)]+\\)\\s*","isNegativeMask":"1"});window['CI__1755741567'].onSelectedItemChanged=function(s,e){window['CI__1547442768'].onSelectedItemChanged(s,e);};
+//--></script>
+</div><script id="dxss_CI__1547442768" type="text/javascript">//<!--
+window['CI__1547442768']=new ReaderUiLanguageSelector({"cmbLanguageSelectorName":"CI__1755741567","supportedCultureNamesByCmbText":"{\"English (United States)\":\"en-us\"}","readerUiLangCookieName":"ch_lang","isRedirectUrlInValue":true,"pnlContainerName":"pnlContainer_cmbReaderUiLanguageSelector_pnlContainer","isSearchPage":0});
+//--></script>
+                </div>
+                <div id="pnlOffCanvasHeaderMenu" class="BaseMaster_offCanvasHeaderMenu">
+                </div>
+              </div>
+              <script id="dxss_pnlContainer_txtMobileMenuDeclaration" type="text/javascript">//<!--
+window['baseMasterMobileMenu']=new CHMenu('pnlOffCanvasHeaderMenu',{"cssClasses":{"menu":null,"popup":null},"templates":{"itemContent":null,"treeItemContent":null,"dropDownArrow":null},"isMobileViewIfParentOverflow":false,"mobileViewMinWidthThreshold":-1,"selectedItemId":null,"isAllowItemSelection":true,"isEscapeMenuItemText":true,"isUseFontAwesomeIcons":true,"fontAwesomeVersion":"latest","isMovePopupToBodyChildLevel":true,"isShowPopupOnHover":false},[]);window['baseMasterMobileMenu'].onItemClick=function(s,e){onMasterMobileMenuItemClick(s,e);};
+//--></script>
+              <div id="pnlOffCanvasContent" class="BaseMaster_offCanvasContent">
+              </div>
+            </nav>
+            
+            
+            <input type="hidden" id="ctl00$pnlContainer$hiStateBaseMaster" name="ctl00$pnlContainer$hiStateBaseMaster" value><script id="dxss_156139314" type="text/javascript">
+<!--
+ASPx.createControl(ASPxClientHiddenField,'pnlContainer_hiStateBaseMaster','hiStateBaseMaster',{'callBack':function(arg) { WebForm_DoCallback('ctl00$pnlContainer$hiStateBaseMaster',arg,ASPx.Callback,'pnlContainer_hiStateBaseMaster',ASPx.CallbackError,true); },'uniqueID':'ctl00$pnlContainer$hiStateBaseMaster','properties':{'dxpisStickyAppHeader':true,'dxpisStickyNavPanel':true,'dxpisStickyArticleHeader':false,'dxpisShowNavPanel':true,'dxpisShowPubsList':false,'dxpisAllowCollapseNavPanel':true,'dxpfixedWidth':1800,'dxpmobileWidthBreakpointPx':979},'typeInfoTable':{'dxpfixedWidth':18,'dxpmobileWidthBreakpointPx':18}});
+
+//-->
+</script>
+
+            <div id="pnlBaseMasterMenuContainer" class="BaseMaster_mainMenuContainer">
+              
+                  <div class="BaseMaster_templateHeader customFixedWidth">
+                    <div class="DeepSpace_appHeaderLine1 clearfix">
+    <div class="DeepSpace_pnlProjectNameContainer">
+        <div id="pnlContainer_templatedHeader_projectname_cmbProjectName_pnlWidthTester" class="LightComboBox_pnlWidthTester"></div>
+<table id="pnlContainer_templatedHeader_projectname_cmbProjectName_comboBox_LP" class="dxeLoadingPanel_DefaultTheme dxlpLoadingPanel_DefaultTheme" cellspacing="0" cellpadding="0" style="left:0px;top:0px;z-index:30000;display:none;">
+		<tr>
+			<td class="dx"><span id="pnlContainer_templatedHeader_projectname_cmbProjectName_comboBox_TL">Loading&hellip;</span></td>
+		</tr>
+	</table><div id="pnlContainer_templatedHeader_projectname_cmbProjectName_comboBox_LD" class="dxeLoadingDiv_DefaultTheme dxlpLoadingDiv_DefaultTheme dx-ft dxMSTouchDraggable" style="left:0px;top:0px;z-index:29999;display:none;position:absolute;">
+
+	</div><table class="dxeButtonEditSys dxeButtonEdit_DefaultTheme LightComboBox_container ArticleEditor_projectNameComboBox ArticleEditor_projectName" cellspacing="1" cellpadding="0" id="pnlContainer_templatedHeader_projectname_cmbProjectName_comboBox" style="display:none;cursor:pointer;">
+		<tr>
+			<td style="display:none;"><input id="pnlContainer_templatedHeader_projectname_cmbProjectName_comboBox_VI" name="pnlContainer_templatedHeader_projectname_cmbProjectName_comboBox_VI" type="hidden"></td><td class="dxeIIC" valign="middle" style="padding-left:0px;padding-top:0px;padding-bottom:0px;display:none;"><img src="DXR.axd" alt></td><td class="dxic" width="100%" style="padding-left:2px;padding-right:2px;padding-top:0px;padding-bottom:0px;"><input class="dxeEditArea_DefaultTheme dxeEditAreaSys dxeHideDefaultIEClearBtnSys" id="pnlContainer_templatedHeader_projectname_cmbProjectName_comboBox_I" name="ctl00$pnlContainer$templatedHeader$projectname$cmbProjectName$comboBox" readonly="readonly" onchange="ASPx.ETextChanged(&#39;pnlContainer_templatedHeader_projectname_cmbProjectName_comboBox&#39;)" type="text" style="cursor:pointer;"></td><td id="pnlContainer_templatedHeader_projectname_cmbProjectName_comboBox_B-1" class="dxeButton dxeButtonEditButton_DefaultTheme LightComboBox_button" style="user-select:none;-khtml-user-select:none;-ms-user-select:none;"><img id="pnlContainer_templatedHeader_projectname_cmbProjectName_comboBox_B-1Img" src="images/empty.png" alt="Dropdown arrow" height="16" width="16"></td>
+		</tr>
+	</table><div id="pnlContainer_templatedHeader_projectname_cmbProjectName_comboBox_DDD_PW-1" class="dxpcDropDown_DefaultTheme dxpclW dxpc-ddSys dxdd-root" style="z-index:10000;display:none;visibility:hidden;">
+		<div class="dxpc-mainDiv dxdd-list dxpc-shadow">
+			<div class="dxpc-contentWrapper">
+				<div class="dxpc-content">
+					<table class="dxeListBox_DefaultTheme" cellspacing="0" cellpadding="0" id="pnlContainer_templatedHeader_projectname_cmbProjectName_comboBox_DDD_L" style="border-collapse:separate;">
+						<tr>
+							<td valign="top"><div id="pnlContainer_templatedHeader_projectname_cmbProjectName_comboBox_DDD_L_D" class="dxlbd" style="overflow:auto;">
+								<input id="pnlContainer_templatedHeader_projectname_cmbProjectName_comboBox_DDD_L_VI" type="hidden" name="ctl00$pnlContainer$templatedHeader$projectname$cmbProjectName$comboBox$DDD$L"><table cellspacing="0" cellpadding="0" style="border-collapse:separate;visibility:hidden!important;display:none!important;">
+									<tr id="pnlContainer_templatedHeader_projectname_cmbProjectName_comboBox_DDD_L_LBI-1" class="dxeListBoxItemRow_DefaultTheme">
+										<td id="pnlContainer_templatedHeader_projectname_cmbProjectName_comboBox_DDD_L_LBII" class="dxeListBoxItem_DefaultTheme">&nbsp;</td>
+									</tr>
+								</table><table id="pnlContainer_templatedHeader_projectname_cmbProjectName_comboBox_DDD_L_LBT" cellspacing="0" cellpadding="0" width="100%" style="border-collapse:separate;">
+									<tr>
+										<td></td>
+									</tr>
+								</table>
+							</div></td>
+						</tr>
+					</table><script id="dxss_1698421690" type="text/javascript">
+<!--
+ASPx.AddReadOnlyItems('pnlContainer_templatedHeader_projectname_cmbProjectName_comboBox_DDD_L',[[['dxeReadOnly_DefaultTheme LightComboBox_containerReadOnly'],[''],['']]]);
+ASPx.createControl(ASPxClientListBox,'pnlContainer_templatedHeader_projectname_cmbProjectName_comboBox_DDD_L','',{'uniqueID':'ctl00$pnlContainer$templatedHeader$projectname$cmbProjectName$comboBox$DDD$L','scStates':4,'scPostfix':'DefaultTheme','stateObject':{'CustomCallback':''},'isSyncEnabled':false,'isComboBoxList':true,'hasSampleItem':true,'isHasFakeRow':true,'hoverClasses':['dxeListBoxItemHover_DefaultTheme'],'selectedClasses':['dxeListBoxItemSelected_DefaultTheme'],'disabledClasses':['dxeDisabled_DefaultTheme'],'itemsInfo':[]},{'SelectedIndexChanged':function (s, e) { ASPx.CBLBSelectedIndexChanged('pnlContainer_templatedHeader_projectname_cmbProjectName_comboBox', e); },'ItemClick':function (s, e) { ASPx.CBLBItemMouseUp('pnlContainer_templatedHeader_projectname_cmbProjectName_comboBox', e); }},null,{'decorationStyles':[{'key':'F','className':'dxeFocused_DefaultTheme','cssText':''}]});
+
+//-->
+</script>
+				</div>
+			</div>
+		</div>
+	</div><script id="dxss_539455572" type="text/javascript">
+<!--
+ASPx.AddHoverItems('pnlContainer_templatedHeader_projectname_cmbProjectName_comboBox_DDD',[[['dxpc-closeBtnHover'],[''],['HCB-1']]]);
+ASPx.createControl(ASPxClientPopupControl,'pnlContainer_templatedHeader_projectname_cmbProjectName_comboBox_DDD','',{'uniqueID':'ctl00$pnlContainer$templatedHeader$projectname$cmbProjectName$comboBox$DDD','adjustInnerControlsSizeOnShow':false,'popupAnimationType':'slide','closeAction':'CloseButton','popupHorizontalAlign':'LeftSides','popupVerticalAlign':'Below','isPopupPositionCorrectionOn':false},{'Shown':function (s, e) { ASPx.DDBPCShown('pnlContainer_templatedHeader_projectname_cmbProjectName_comboBox', e); }});
+
+//-->
+</script><script id="dxss_275747936" type="text/javascript">
+<!--
+ASPx.AddHoverItems('pnlContainer_templatedHeader_projectname_cmbProjectName_comboBox',[[['dxeButtonEditButtonHover_DefaultTheme'],[''],['B-1']]]);
+ASPx.RemoveHoverItems('pnlContainer_templatedHeader_projectname_cmbProjectName_comboBox',[[['B-100']]]);
+ASPx.AddPressedItems('pnlContainer_templatedHeader_projectname_cmbProjectName_comboBox',[[['dxeButtonEditButtonPressed_DefaultTheme'],[''],['B-1']]]);
+ASPx.RemovePressedItems('pnlContainer_templatedHeader_projectname_cmbProjectName_comboBox',[[['B-100']]]);
+ASPx.AddDisabledItems('pnlContainer_templatedHeader_projectname_cmbProjectName_comboBox',[[['dxeDisabled_DefaultTheme'],[''],['','I']],[['dxeDisabled_DefaultTheme dxeButtonDisabled_DefaultTheme'],[''],['B-1'],,[[{'spriteCssClass':'dxEditors_edtDropDownDisabled_DefaultTheme'}]],['Img']]]);
+ASPx.RemoveDisabledItems('pnlContainer_templatedHeader_projectname_cmbProjectName_comboBox',[[['B-100'],]]);
+ASPx.AddReadOnlyItems('pnlContainer_templatedHeader_projectname_cmbProjectName_comboBox',[[['dxeReadOnly_DefaultTheme LightComboBox_containerReadOnly'],[''],['','I']]]);
+ASPx.createControl(ASPxClientComboBox,'pnlContainer_templatedHeader_projectname_cmbProjectName_comboBox','CI_524848011',{'callBack':function(arg) { WebForm_DoCallback('ctl00$pnlContainer$templatedHeader$projectname$cmbProjectName$comboBox',arg,ASPx.Callback,'pnlContainer_templatedHeader_projectname_cmbProjectName_comboBox',ASPx.CallbackError,true); },'uniqueID':'ctl00$pnlContainer$templatedHeader$projectname$cmbProjectName$comboBox','clientVisible':false,'autoCompleteAttribute':{'name':'autocomplete','value':'off'},'incrementalFilteringMode':'None','lastSuccessValue':null,'islastSuccessValueInit':true},{'Init':function(s,e){window['CI_1114108265'].onComboBoxInit(s,e);},'TextChanged':function(s,e){window['CI_1114108265'].onComboBoxSelectedIndexChanged(s,e);},'DropDown':function(s,e){window['CI_1114108265'].onComboBoxDropdown(s,e);},'CloseUp':function(s,e){window['CI_1114108265'].onComboBoxCloseUp(s,e);},'QueryCloseUp':function(s,e){window['CI_1114108265'].onComboBoxQueryCloseUp(s,e);},'SelectedIndexChanged':function(s,e){window['CI_1114108265'].onComboBoxSelectedIndexChanged(s,e);}},null,{'decorationStyles':[{'key':'F','className':'dxeFocused_DefaultTheme','cssText':''}]});
+
+//-->
+</script><script id="dxss_CI_1114108265" type="text/javascript">//<!--
+window['CI_1114108265']=new LightComboBox({"comboBoxName":"CI_524848011","ariaLabelText":"Project name","pnlWidthTesterName":"pnlContainer_templatedHeader_projectname_cmbProjectName_pnlWidthTester","maskClientRegExPattern":null,"isNegativeMask":"0"});window['CI_1114108265'].onSelectedItemChanged=function(s,e){window['CI__94826354'].onOtherArticleVersionSelected(s,e);};
+//--></script>
+<span id="pnlContainer_templatedHeader_projectname_lblProjectName" class="ArticleEditor_projectNameLabel ArticleEditor_projectName" style="display:none"></span><script id="dxss_CI__94826354" type="text/javascript">//<!--
+window['CI__94826354']=new ProjectName({"cmbProjectNameName":"CI_1114108265","lblProjectNameName":"pnlContainer_templatedHeader_projectname_lblProjectName"});
+//--></script>
+    </div>
+    <div class="DeepSpace_pnlHeaderLine1OtherControlsContainer">
+        <button id="pnlContainer_templatedHeader_hamburger_btnMobileMenu" type="button" class="CHHamburger_container CHHamburger_container-htla BaseMaster_hamburgerMenuIcon" title="Show mobile menu" aria-label="Show mobile menu"><span></span></button><script id="dxss_CI_1647519887" type="text/javascript">//<!--
+window['CI_1647519887']=new ButtonHamburger({"showMobileMenuText":"Show mobile menu","hideMobileMenuText":"Hide mobile menu","btnMobileMenuName":"pnlContainer_templatedHeader_hamburger_btnMobileMenu"});
+//--></script>
+        <div class="BaseMaster_logoContainer clearfix">
+            <a href="en-us.html" id="pnlContainer_templatedHeader_logo_lnkLogo" style="display:;" class="PortalLogo_container"> 
+  <img id="pnlContainer_templatedHeader_logo_imgLogo" class="BaseMaster_imgLogo" alt="Logo" src="images/Copado-Logo_All-Blue.png">
+</a><script id="dxss_CI__2085317039" type="text/javascript">//<!--
+window['CI__2085317039']=new PortalLogo({"lnkLogoName":"pnlContainer_templatedHeader_logo_lnkLogo","imgLogoName":"pnlContainer_templatedHeader_logo_imgLogo","fileUrlMask":"/resources/FILE_NAME"});
+//--></script>
+        </div>
+        <span class="BaseMaster_headerSeparator"></span>
+        <div id="pnlContainer_templatedHeader_searchbox_pnlSearch" class="BaseMaster_searchBoxContainer">
+  
+  <button id="pnlContainer_templatedHeader_searchbox_btnSearchMobile" type="button" class="CHMenu_menuItem BaseMaster_btnSearchMobile BaseMaster_iconContainer" Title="Search" aria-label="Search" onclick="window[&#39;CI_1125218977&#39;].onBtnSearchMobileClick();">
+    <i id="pnlContainer_templatedHeader_searchbox_iconSearch" class="fas fa-lg fa-search"></i>
+  </button>
+  <table id="pnlContainer_templatedHeader_searchbox_edtSearch_pnlContainer1" style="width:100%" cellpadding="0" cellspacing="0" class="BaseMaster_searchBoxDesktop" onclick="window[&#39;CI__232835215&#39;].onContainerClick(this,event);">
+		<tr>
+			<td style="width:100%">      
+      <div id="pnlContainer_templatedHeader_searchbox_edtSearch_edtQuery_edtArticleTitle_pnlContainer" onfocusout="window[&#39;CI__1788094341&#39;].onEditorLosingFocus();">
+  <div class="AutoCompletionBox_editor">
+    <table id="pnlContainer_templatedHeader_searchbox_edtSearch_edtQuery_edtArticleTitle_edtFilter_edtQuickFilter_ET" class="dxeValidDynEditorTable dxeRoot_DefaultTheme" cellspacing="0" cellpadding="0" width="100%">
+				<tr>
+					<td id="pnlContainer_templatedHeader_searchbox_edtSearch_edtQuery_edtArticleTitle_edtFilter_edtQuickFilter_CC" width="100%"><table class="dxeButtonEditSys dxeButtonEdit_DefaultTheme QuickFilterBox_editBox ArticleCompletionBox_editor SearchBox_editor grayTextBox" cellspacing="1" cellpadding="0" id="pnlContainer_templatedHeader_searchbox_edtSearch_edtQuery_edtArticleTitle_edtFilter_edtQuickFilter" width="100%">
+						<tr>
+							<td class="dxic" width="100%"><input class="dxeEditArea_DefaultTheme dxeEditAreaSys dxeHideDefaultIEClearBtnSys" id="pnlContainer_templatedHeader_searchbox_edtSearch_edtQuery_edtArticleTitle_edtFilter_edtQuickFilter_I" name="ctl00$pnlContainer$templatedHeader$searchbox$edtSearch$edtQuery$edtArticleTitle$edtFilter$edtQuickFilter" onchange="ASPx.EValueChanged(&#39;pnlContainer_templatedHeader_searchbox_edtSearch_edtQuery_edtArticleTitle_edtFilter_edtQuickFilter&#39;)" value="Search..." type="text"></td><td id="pnlContainer_templatedHeader_searchbox_edtSearch_edtQuery_edtArticleTitle_edtFilter_edtQuickFilter_B2" title="Search" class="dxeButton dxeButtonEditButton_DefaultTheme QuickFilterBox_buttonContainer" onclick="ASPx.BEClick(&#39;pnlContainer_templatedHeader_searchbox_edtSearch_edtQuery_edtArticleTitle_edtFilter_edtQuickFilter&#39;,2)">
+    <button type="button" class="QuickFilterBox_button" aria-label="Search">
+      <img src="images/empty_1.png" alt="Search" class="QuickFilterBox_buttonImage QuickFilterBox_btnSearch">
+    </button>
+  </td>
+						</tr>
+					</table></td><td id="pnlContainer_templatedHeader_searchbox_edtSearch_edtQuery_edtArticleTitle_edtFilter_edtQuickFilter_EC" class="dxeErrorCell_DefaultTheme dxeErrorFrame_DefaultTheme dxeErrorFrameSys dxeErrorCellSys dxeNoBorderLeft" style="vertical-align:middle;display:none;white-space:nowrap;"><table cellspacing="0" cellpadding="0" width="100%">
+						<tr>
+							<td><img id="pnlContainer_templatedHeader_searchbox_edtSearch_edtQuery_edtArticleTitle_edtFilter_edtQuickFilter_EI" title="Invalid value" class="dxEditors_edtError_DefaultTheme" src="DXR.axd" alt="Invalid value"></td>
+						</tr>
+					</table></td>
+				</tr>
+			</table><script id="dxss_1967235432" type="text/javascript">
+<!--
+ASPx.AddHoverItems('pnlContainer_templatedHeader_searchbox_edtSearch_edtQuery_edtArticleTitle_edtFilter_edtQuickFilter',[[['dxeButtonEditButtonHover_DefaultTheme'],[''],['B2']]]);
+ASPx.RemoveHoverItems('pnlContainer_templatedHeader_searchbox_edtSearch_edtQuery_edtArticleTitle_edtFilter_edtQuickFilter',[[['B-100','B0','B1']]]);
+ASPx.AddPressedItems('pnlContainer_templatedHeader_searchbox_edtSearch_edtQuery_edtArticleTitle_edtFilter_edtQuickFilter',[[['dxeButtonEditButtonPressed_DefaultTheme'],[''],['B2']]]);
+ASPx.RemovePressedItems('pnlContainer_templatedHeader_searchbox_edtSearch_edtQuery_edtArticleTitle_edtFilter_edtQuickFilter',[[['B-100','B0','B1']]]);
+ASPx.AddDisabledItems('pnlContainer_templatedHeader_searchbox_edtSearch_edtQuery_edtArticleTitle_edtFilter_edtQuickFilter',[[['dxeDisabled_DefaultTheme'],[''],['','I']],[['dxeDisabled_DefaultTheme dxeButtonDisabled_DefaultTheme'],[''],['B2'],,[[{'spriteCssClass':'dxEditors_edtEllipsisDisabled_DefaultTheme'}]],['Img']]]);
+ASPx.RemoveDisabledItems('pnlContainer_templatedHeader_searchbox_edtSearch_edtQuery_edtArticleTitle_edtFilter_edtQuickFilter',[[['B-100','B0','B1'],]]);
+ASPx.createControl(ASPxClientButtonEdit,'pnlContainer_templatedHeader_searchbox_edtSearch_edtQuery_edtArticleTitle_edtFilter_edtQuickFilter','CI_1007690',{'uniqueID':'ctl00$pnlContainer$templatedHeader$searchbox$edtSearch$edtQuery$edtArticleTitle$edtFilter$edtQuickFilter','scStates':2,'scPostfix':'DefaultTheme','stateObject':{'rawValue':''},'customValidationEnabled':true,'isValid':true,'errorText':'Invalid value','isErrorFrameRequired':true,'display':'Dynamic','errorDisplayMode':'i','errorImageIsAssigned':true,'controlCellStyles':{'cssClass':'dxeErrorFrame_DefaultTheme dxeErrorFrameSys dxeNoBorderRight dxeControlsCell_DefaultTheme','style':'width:100%;'},'nullText':'Search...','autoCompleteAttribute':{'name':'autocomplete','value':'off'},'buttonCount':3,'clearButtonDisplayMode':'Never'},{'Init':function(s,e){window['CI__2095236923'].onTextBoxInit(s,e);},'KeyDown':function(s,e){window['CI__2095236923'].onTextBoxKeyDown(s,e);},'KeyUp':function(s,e){window['CI__2095236923'].onTextBoxKeyUp(s,e);},'ButtonClick':function(s,e){window['CI__2095236923'].onTextBoxButtonClick(s,e);}},null,{'decorationStyles':[{'key':'I','className':'dxeInvalid_DefaultTheme','cssText':''},{'key':'F','className':'dxeFocused_DefaultTheme QuickFilterBox_focused','cssText':''},{'key':'N','className':'dxeNullText_DefaultTheme QuickFilterBox_nullText','cssText':''}]});
+
+//-->
+</script>
+
+<input type="hidden" id="ctl00$pnlContainer$templatedHeader$searchbox$edtSearch$edtQuery$edtArticleTitle$edtFilter$hiState" name="ctl00$pnlContainer$templatedHeader$searchbox$edtSearch$edtQuery$edtArticleTitle$edtFilter$hiState" value><script id="dxss_730889529" type="text/javascript">
+<!--
+ASPx.createControl(ASPxClientHiddenField,'pnlContainer_templatedHeader_searchbox_edtSearch_edtQuery_edtArticleTitle_edtFilter_hiState','CI_1037645650',{'callBack':function(arg) { WebForm_DoCallback('ctl00$pnlContainer$templatedHeader$searchbox$edtSearch$edtQuery$edtArticleTitle$edtFilter$hiState',arg,ASPx.Callback,'pnlContainer_templatedHeader_searchbox_edtSearch_edtQuery_edtArticleTitle_edtFilter_hiState',ASPx.CallbackError,true); },'uniqueID':'ctl00$pnlContainer$templatedHeader$searchbox$edtSearch$edtQuery$edtArticleTitle$edtFilter$hiState'});
+
+//-->
+</script>
+
+<script id="dxss_CI__2095236923" type="text/javascript">//<!--
+window['CI__2095236923']=new QuickFilterBox('CI_1007690',0,false,'CI__625998789','CI__970448957','[Custom Filter]',true,'CI_1037645650','search');window['CI__2095236923'].onFilterChanged=function(s,e){window['CI__1788094341'].onChangedFilter(s,e);};window['CI__2095236923'].onButtonClicked=function(s,e){window['CI__1788094341'].onEditorButtonClicked(s,e);};window['CI__2095236923'].onGotFocus=function(s,e){window['CI__1788094341'].onEditorGotFocus(s,e);};window['CI__2095236923'].onKeyDown=function(s,e){window['CI__1788094341'].onEditorKeyDown(s,e);};
+//--></script>
+  </div>
+  <div id="pnlContainer_templatedHeader_searchbox_edtSearch_edtQuery_edtArticleTitle_pnlCompletions" class="AutoCompletionBox_completionWindow SearchBox_completionWindow">
+    <div id="pnlContainer_templatedHeader_searchbox_edtSearch_edtQuery_edtArticleTitle_pnlCompletionsList"></div>
+  </div>
+</div>
+<input type="hidden" id="ctl00$pnlContainer$templatedHeader$searchbox$edtSearch$edtQuery$edtArticleTitle$hiState" name="ctl00$pnlContainer$templatedHeader$searchbox$edtSearch$edtQuery$edtArticleTitle$hiState" value><script id="dxss_1280222168" type="text/javascript">
+<!--
+ASPx.createControl(ASPxClientHiddenField,'pnlContainer_templatedHeader_searchbox_edtSearch_edtQuery_edtArticleTitle_hiState','CI__964542308',{'callBack':function(arg) { WebForm_DoCallback('ctl00$pnlContainer$templatedHeader$searchbox$edtSearch$edtQuery$edtArticleTitle$hiState',arg,ASPx.Callback,'pnlContainer_templatedHeader_searchbox_edtSearch_edtQuery_edtArticleTitle_hiState',ASPx.CallbackError,true); },'uniqueID':'ctl00$pnlContainer$templatedHeader$searchbox$edtSearch$edtQuery$edtArticleTitle$hiState'});
+
+//-->
+</script><script id="dxss_CI__1788094341" type="text/javascript">//<!--
+window['CI__1788094341']=new AutoCompletionBox({"pnlCompletionsName":"pnlContainer_templatedHeader_searchbox_edtSearch_edtQuery_edtArticleTitle_pnlCompletions","pnlCompletionsListName":"pnlContainer_templatedHeader_searchbox_edtSearch_edtQuery_edtArticleTitle_pnlCompletionsList","editorName":"CI__2095236923","stateName":"CI__964542308","pnlContainerName":"pnlContainer_templatedHeader_searchbox_edtSearch_edtQuery_edtArticleTitle_pnlContainer","startTypingText":null},{"isListOnly":false,"completionItemTemplate":"\u003ca class=\u0027ArticleCompletionBox_ftsItem\u0027 aria-label=\u0027{{title}}\u0027 href=\u0027{{url}}\u0027\u003e\u003cdiv class=\u0027ArticleCompletionBox_item\u0027 title=\u0027{{title}}\u0027\u003e{{hlitedTitle}}\u003c/div\u003e\u003cdiv class=\u0027ArticleCompletionBox_projectName\u0027 title=\u0027{{projectName}}\u0027\u003e{{projectName}}\u003c/div\u003e\u003c/a\u003e","isAllowCompletionItemFocusFromKeyboard":false});window['CI__1788094341'].onGetCompletions=function(s,e){window['CI__1202265899'].onCompletionsGet(s,e);};window['CI__1788094341'].onSelectedItemChanged=function(s,e){window['CI__1202265899'].onSelectedItemChanged(s,e);};window['CI__1788094341'].onButtonClick=function(s,e){window['CI__1202265899'].onClickButton(s,e);};window['CI__1788094341'].onKeyDown=function(s,e){window['CI__1202265899'].onEditorKeyDown(s,e);};
+//--></script>
+
+<input type="hidden" id="ctl00$pnlContainer$templatedHeader$searchbox$edtSearch$edtQuery$hiState" name="ctl00$pnlContainer$templatedHeader$searchbox$edtSearch$edtQuery$hiState" value><script id="dxss_1849326322" type="text/javascript">
+<!--
+ASPx.createControl(ASPxClientHiddenField,'pnlContainer_templatedHeader_searchbox_edtSearch_edtQuery_hiState','CI_2126805512',{'callBack':function(arg) { WebForm_DoCallback('ctl00$pnlContainer$templatedHeader$searchbox$edtSearch$edtQuery$hiState',arg,ASPx.Callback,'pnlContainer_templatedHeader_searchbox_edtSearch_edtQuery_hiState',ASPx.CallbackError,true); },'uniqueID':'ctl00$pnlContainer$templatedHeader$searchbox$edtSearch$edtQuery$hiState'});
+
+//-->
+</script><script id="dxss_CI__1202265899" type="text/javascript">//<!--
+window['CI__1202265899']=new ArticleCompletionBox({"editorName":"CI__1788094341","stateName":"CI_2126805512","recentArticlesType":"ViewedArticles","lblArticlesAvailableName":"pnlContainer_templatedHeader_searchbox_edtSearch_edtQuery_lblArticlesAvailable","isShowSelectedUrl":"0","maxResultCount":"10"});window['CI__1202265899'].onArticleChanged=function(s,e){window['CI__232835215'].onArticleSelectedInCompletion(s,e);};window['CI__1202265899'].onGetCompletions=function(s,e){window['CI__232835215'].onGetCompletions(s,e);};window['CI__1202265899'].onKeyDown=function(s,e){window['CI__232835215'].onEditorKeyDown(s,e);};
+//--></script>
+    </td>
+		</tr>
+	</table>
+	
+<script id="dxss_CI__232835215" type="text/javascript">//<!--
+window['CI__232835215']=new SearchBox('CI__1202265899','1');window['CI__232835215'].onDoSearch=function(s,e){window['CI_1125218977'].onEdtSearchDoSearch(s,e);};window['CI__232835215'].onClick=function(s,e){window['CI_1125218977'].onEdtSearchClick(s,e);};
+//--></script>
+</div>
+<script id="dxss_CI_1125218977" type="text/javascript">//<!--
+window['CI_1125218977']=new SearchBoxComplex({"searchBoxName":"CI__232835215"});
+//--></script>
+        <span class="BaseMaster_headerSeparator"></span>
+        <div id="pnlMainMenuContainer" class="MainMenu_container">
+  <div id="pnlMainMenu" class="BaseMaster_mainMenu"></div>
+  <script id="dxss_baseMasterMainMenu" type="text/javascript">//<!--
+window['baseMasterMainMenu']=new CHMenu('pnlMainMenu',{"cssClasses":{"menu":null,"popup":null},"templates":{"itemContent":null,"treeItemContent":null,"dropDownArrow":null},"isMobileViewIfParentOverflow":true,"mobileViewMinWidthThreshold":979,"selectedItemId":null,"isAllowItemSelection":false,"isEscapeMenuItemText":true,"isUseFontAwesomeIcons":true,"fontAwesomeVersion":"latest","isMovePopupToBodyChildLevel":false,"isShowPopupOnHover":false},[{"id":"a0501641-0aa3-2a37-1b9c-1162c3377ba4","t":"CopadoGPT Beta","imgs":{},"c":[],"s":0,"d":0,"e":1,"vals":{"actionType":"OpenLink","_customCssClass":null,"_url":"https://www.copado.com/copado-gpt","_target":"_blank"}},{"id":"bfc22ebe-105a-bf0a-9a52-466bce961089","t":"Copado Website","imgs":{},"c":[],"s":0,"d":0,"e":1,"vals":{"actionType":"OpenLink","_customCssClass":null,"_url":"https://www.copado.com/","_target":"_blank"}},{"id":"0d2c7eb3-2bf8-17d0-3292-a228aab43d67","t":" Success Community","imgs":{},"c":[],"s":0,"d":0,"e":1,"vals":{"actionType":"OpenLink","_customCssClass":null,"_url":"https://success.copado.com/s/","_target":"_blank"}},{"id":"2d0d956a-6ae4-adda-e01c-d94fd7915aba","t":"System Status","imgs":{},"c":[],"s":0,"d":0,"e":1,"vals":{"actionType":"OpenLink","_customCssClass":null,"_url":"https://status.copado.com/","_target":"_blank"}}]);window['baseMasterMainMenu'].onItemClick=function(s,e){window['CI__125781698'].onMainMenuItemClick(s,e);};window['baseMasterMainMenu'].onItemAuxClick=function(s,e){window['CI__125781698'].onMainMenuItemAuxClick(s,e);};window['baseMasterMainMenu'].onViewSwitched=function(s,e){onMasterMainMenuViewSwitched(s,e);};window['baseMasterMainMenu'].onItemExpanding=function(s,e){onMasterMainMenuItemExpanding(s,e);};
+//--></script>
+</div>
+
+<div class="dxpnlControl_DefaultTheme MainMenu_panelProjectsPopup" id="pnlContainer_templatedHeader_mainmenu_panelProjectsPopup">
+		 
+      
+      <script id="dxss_CI_437245403" type="text/javascript">//<!--
+window['CI_437245403']=new ProgressLine({"containerCssClass":"ProgressLine_container","targetElementName":null,"position":"bottom","associatedControlName":""});
+//--></script>              
+    
+	</div><table id="pnlContainer_templatedHeader_mainmenu_panelProjectsPopup_LP" class="dxpnlLoadingPanelWithContent_DefaultTheme dxlpLoadingPanelWithContent_DefaultTheme ProgressLine_loadingPanelHidden" cellspacing="0" cellpadding="0" style="left:0px;top:0px;z-index:30000;display:none;">
+		<tr>
+			<td class="dx" style="padding-right:0px;"><img class="dxlp-loadingImage dxlp-imgPosLeft" src="DXR.axd" alt align="middle"></td><td class="dx" style="padding-left:0px;"><span id="pnlContainer_templatedHeader_mainmenu_panelProjectsPopup_TL">Loading&hellip;</span></td>
+		</tr>
+	</table><div id="pnlContainer_templatedHeader_mainmenu_panelProjectsPopup_LD" class="dxpnlLoadingDivWithContent_DefaultTheme dxlpLoadingDivWithContent_DefaultTheme dx-ft dxMSTouchDraggable" style="left:0px;top:0px;z-index:29999;display:none;position:absolute;">
+
+	</div><script id="dxss_2146019772" type="text/javascript">
+<!--
+ASPx.createControl(ASPxClientCallbackPanel,'pnlContainer_templatedHeader_mainmenu_panelProjectsPopup','',{'callBack':function(arg) { WebForm_DoCallback('ctl00$pnlContainer$templatedHeader$mainmenu$panelProjectsPopup',arg,ASPx.Callback,'pnlContainer_templatedHeader_mainmenu_panelProjectsPopup',ASPx.CallbackError,true); },'uniqueID':'ctl00$pnlContainer$templatedHeader$mainmenu$panelProjectsPopup','hideContentOnCallback':false},{'BeginCallback':function(s,e){if(window['CI_437245403']){window['CI_437245403'].onBeginCallback(s,e);}}});
+
+//-->
+</script><script id="dxss_CI__125781698" type="text/javascript">//<!--
+window['CI__125781698']=new MainMenu({"menuName":"baseMasterMainMenu","pnlProjectsPopupName":"pnlContainer_templatedHeader_mainmenu_panelProjectsPopup","projectsPageLink":"/portal/dashboard"});
+//--></script>
+        
+        <button id="pnlProfileLink" type="button" class="BaseMaster_profileLink clearfix" aria-label="Log In" onclick="return onMasterLoginClick();">
+  <span class="BaseMaster_link">Log In</span>
+  
+</button>
+
+
+    </div>
+</div>
+                  </div>
+                
+            </div>            
+            
+            <div class="BaseMaster_leftMenuAndContentContainer">
+
+              
+              
+             
+              
+                            
+
+              <div class="BaseMaster_topNavigationAndContentContainer">
+
+                
+
+
+                
+                <div id="pnlBaseMasterContainer" class="BaseMaster_contentContainer clearfix">
+                  
+                  
+                  <script type="text/javascript">         
+                    initMasterPage();
+                  </script>
+                  
+  
+  <div class="Home_pnlCustomizeContainer">
+    
+    
+  </div>
+  
+
+  <script>
+    
+    if (_$("#pnlCustomize"))
+    {
+      document.body.appendChild(_$("#pnlCustomize"));
+    }
+  </script>
+
+  
+  <div class="Home_customContent">
+    <div id="pnlSearchContainer" class="searchContainer">
+    <div class="background">
+    </div>
+
+    <div class="searchContentContainer fixedWidth">
+        <h1>
+            Copado Documentation
+        </h1>
+        <div class="searchCenteringContainer">
+            <button type="button" title="Search" aria-label="Click to search" class="btnSearch" onclick="onBtnSearchClick();" value name>
+                <i class="fas fa-search"></i>
+            </button>
+            <div class="searchBoxContainer">
+                <input id="edtSearch" aria-label="Search" class="searchBox" placeholder="Search" onkeydown="onEdtSearchKeyDown(event)">
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="navContainer">
+    <div class="fixedWidth clearfix">
+        <div class="linksList">
+
+            <a href="articles.html" class="pubItem">
+                <img src="images/Copado%20CI-CD.png" class="pubIcon">
+                <div class="pubItemTextContainer">
+                    <h3 class="pubItemTitle">
+                        Copado CI/CD
+                    </h3>
+                    <span class="pubItemText">
+                        Learn all about Copado's CI/CD platform.
+                    </span>
+                </div>
+            </a>
+
+            <a href="articles.html" class="pubItem">
+                <img src="images/Copado%20Robotic%20Testing.png" class="pubIcon">
+                <div class="pubItemTextContainer">
+                    <h3 class="pubItemTitle">
+                        Copado Robotic Testing
+                    </h3>
+                    <span class="pubItemText">
+                        Learn all about Copado's cloud-based robotic software testing solution.
+                    </span>
+                </div>
+            </a>
+          <a href="articles.html" class="pubItem">
+                <img src="images/Developer%20Center.png" class="pubIcon">
+                <div class="pubItemTextContainer">
+                    <h3 class="pubItemTitle">
+                        Copado Developer Center
+                    </h3>
+                    <span class="pubItemText">
+                        Learn how to automate, integrate and extend your DevOps process.
+                    </span>
+                </div>
+            </a>
+          <a href="articles.html" class="pubItem">
+              <img src="images/Methodology%20Icon.png" class="pubIcon">
+                <div class="pubItemTextContainer">
+                    <h3 class="pubItemTitle">
+                        Methodology
+                    </h3>
+                    <span class="pubItemText">
+Principles and practices to help development teams thrive.
+                   </span>
+                </div>
+            </a>
+        </div>
+    </div>
+</div>
+
+<div class="footer">
+    <div class="footerContentContainer fixedWidth">
+        <span style="font-size: 10pt;">© Copyright 2022 Copado Holdings, Inc. All rights reserved
+        </span><div class="followUs">
+            <span>
+                <span style="font-size: 10pt;">Follow us:
+            </span></span>
+
+            <ul class="followUsNavList">
+                <li class="followUsNavListItem">
+                    <span style="font-size: 10pt;"><a href="https://www.facebook.com/CopadoSolutions/" aria-label="Follow us on facebook"><i class="fab fa-facebook-f" style="font-size: 10pt;"></i></a></span>
+                </li>
+                <li class="followUsNavListItem">
+                    <span style="font-size: 10pt;"><a href="https://www.linkedin.com/company/copado-solutions-s.l/mycompany/verification/" aria-label="Follow us on linkedin"><i class="fab fa-linkedin-in" style="font-size: 10pt;"></i></a></span>
+                </li>
+                <li class="followUsNavListItem">
+                    <span style="font-size: 10pt;"><a href="https://twitter.com/CopadoSolutions" aria-label="Follow us on twitter"><i class="fab fa-twitter" style="font-size: 10pt;"></i></a></span>
+                </li>
+                <li class="followUsNavListItem">
+                    <span style="font-size: 10pt;"><a href="https://www.youtube.com/channel/UCo2IXZej8qNyIbbWWCG9z3Q" aria-label="Follow us on youtube"><i class="fab fa-youtube" style="font-size: 10pt;"></i></a></span>
+                </li>
+                <li class="followUsNavListItem">
+                    <a href="https://www.instagram.com/copadosolutions/" aria-label="Follow us on instagram"><i class="fab fa-instagram"></i></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+  </div>
+
+                </div>
+              </div>
+
+            </div>
+
+            <footer id="pnlBaseMasterFooter" class="BaseMaster_templateFooter">
+              <div class="customFixedWidth">
+                
+              </div>
+            </footer>
+
+            
+            <noscript>
+              
+            </noscript>
+            <script type="text/javascript" id="dxss_noscript">
+              var pnl = document.getElementById('pnlNoScriptsWarning');
+              if (pnl) pnl.style.display = "none";
+            </script>
+            <div id="pnlOffCanvasOverlay" class="CHOffCanvasPanel_overlay"></div>
+            <div style="clear: both"></div>
+          </div>
+          
+
+          
+          <div id="pnlContainer_searchPopup_pnlSearchPopup" class="BaseMaster_searchPopup" tabindex="-1">      
+  <button id="pnlContainer_searchPopup_btnClose" type="button" class="BaseMaster_searchPopupBtnClose" onclick="window[&#39;CI__1472527818&#39;].onBtnCloseClick();"><i class="fal fa-times"></i><span class="BaseMaster_searchPopupBtnCloseText">Esc</span></button>
+  <div id="pnlContainer_searchPopup_searchControl_pnlContainer" class="SearchControl_container SearchControl_suggestedSearchContainerWithoutResults SearchControl_popupMode">
+  
+  <div id="pnlContainer_searchPopup_searchControl_txtHeading" class="SearchControl_headingText">Search Results</div> 
+  <div id="pnlContainer_searchPopup_searchControl_pnlQueryControls" class="SearchControl_pnlQueryControls">
+    <div id="pnlContainer_searchPopup_searchControl_pnlSearchBox" class="SearchControl_searchBoxContainer" onclick="window[&#39;CI__1881927048&#39;].onSearchBoxClick();">
+      <i class="fal fa-search"></i>
+      <table id="pnlContainer_searchPopup_searchControl_searchBox_pnlContainer1" style="width:100%" cellpadding="0" cellspacing="0" class="SearchControl_searchBoxControlContainer" onclick="window[&#39;CI_504995854&#39;].onContainerClick(this,event);">
+		<tr>
+			<td style="width:100%">      
+      <div id="pnlContainer_searchPopup_searchControl_searchBox_edtQuery_edtArticleTitle_pnlContainer" onfocusout="window[&#39;CI_413042978&#39;].onEditorLosingFocus();">
+  <div class="AutoCompletionBox_editor">
+    <table id="pnlContainer_searchPopup_searchControl_searchBox_edtQuery_edtArticleTitle_edtFilter_edtQuickFilter_ET" class="dxeValidDynEditorTable dxeRoot_DefaultTheme" cellspacing="0" cellpadding="0" width="100%">
+				<tr>
+					<td id="pnlContainer_searchPopup_searchControl_searchBox_edtQuery_edtArticleTitle_edtFilter_edtQuickFilter_CC" width="100%"><table class="dxeButtonEditSys dxeButtonEdit_DefaultTheme QuickFilterBox_editBox ArticleCompletionBox_editor SearchBox_editor SearchControl_searchBoxControl" cellspacing="1" cellpadding="0" id="pnlContainer_searchPopup_searchControl_searchBox_edtQuery_edtArticleTitle_edtFilter_edtQuickFilter" width="100%">
+						<tr>
+							<td class="dxic" width="100%"><input class="dxeEditArea_DefaultTheme dxeEditAreaSys dxeHideDefaultIEClearBtnSys" id="pnlContainer_searchPopup_searchControl_searchBox_edtQuery_edtArticleTitle_edtFilter_edtQuickFilter_I" name="ctl00$pnlContainer$searchPopup$searchControl$searchBox$edtQuery$edtArticleTitle$edtFilter$edtQuickFilter" onchange="ASPx.EValueChanged(&#39;pnlContainer_searchPopup_searchControl_searchBox_edtQuery_edtArticleTitle_edtFilter_edtQuickFilter&#39;)" type="text"></td><td id="pnlContainer_searchPopup_searchControl_searchBox_edtQuery_edtArticleTitle_edtFilter_edtQuickFilter_B1" title="Clear" class="QuickFilterBox_clearButton dxeButton dxeButtonEditButton_DefaultTheme QuickFilterBox_buttonContainer" onclick="ASPx.BEClick(&#39;pnlContainer_searchPopup_searchControl_searchBox_edtQuery_edtArticleTitle_edtFilter_edtQuickFilter&#39;,1)">
+    <button type="button" class="QuickFilterBox_button" aria-label="Clear">
+      <img src="images/empty_1.png" alt="Clear" class="QuickFilterBox_buttonImage TocSprite TocSprite_remove_small">
+    </button>
+  </td>
+						</tr>
+					</table></td><td id="pnlContainer_searchPopup_searchControl_searchBox_edtQuery_edtArticleTitle_edtFilter_edtQuickFilter_EC" class="dxeErrorCell_DefaultTheme dxeErrorFrame_DefaultTheme dxeErrorFrameSys dxeErrorCellSys dxeNoBorderLeft" style="vertical-align:middle;display:none;white-space:nowrap;"><table cellspacing="0" cellpadding="0" width="100%">
+						<tr>
+							<td><img id="pnlContainer_searchPopup_searchControl_searchBox_edtQuery_edtArticleTitle_edtFilter_edtQuickFilter_EI" title="Invalid value" class="dxEditors_edtError_DefaultTheme" src="DXR.axd" alt="Invalid value"></td>
+						</tr>
+					</table></td>
+				</tr>
+			</table><script id="dxss_1747293918" type="text/javascript">
+<!--
+ASPx.AddHoverItems('pnlContainer_searchPopup_searchControl_searchBox_edtQuery_edtArticleTitle_edtFilter_edtQuickFilter',[[['dxeButtonEditButtonHover_DefaultTheme'],[''],['B1']]]);
+ASPx.RemoveHoverItems('pnlContainer_searchPopup_searchControl_searchBox_edtQuery_edtArticleTitle_edtFilter_edtQuickFilter',[[['B-100','B0','B2']]]);
+ASPx.AddPressedItems('pnlContainer_searchPopup_searchControl_searchBox_edtQuery_edtArticleTitle_edtFilter_edtQuickFilter',[[['dxeButtonEditButtonPressed_DefaultTheme'],[''],['B1']]]);
+ASPx.RemovePressedItems('pnlContainer_searchPopup_searchControl_searchBox_edtQuery_edtArticleTitle_edtFilter_edtQuickFilter',[[['B-100','B0','B2']]]);
+ASPx.AddDisabledItems('pnlContainer_searchPopup_searchControl_searchBox_edtQuery_edtArticleTitle_edtFilter_edtQuickFilter',[[['dxeDisabled_DefaultTheme'],[''],['','I']],[['dxeDisabled_DefaultTheme dxeButtonDisabled_DefaultTheme'],[''],['B1'],,[[{'spriteCssClass':'dxEditors_edtEllipsisDisabled_DefaultTheme'}]],['Img']]]);
+ASPx.RemoveDisabledItems('pnlContainer_searchPopup_searchControl_searchBox_edtQuery_edtArticleTitle_edtFilter_edtQuickFilter',[[['B-100','B0','B2'],]]);
+ASPx.createControl(ASPxClientButtonEdit,'pnlContainer_searchPopup_searchControl_searchBox_edtQuery_edtArticleTitle_edtFilter_edtQuickFilter','CI__1410058733',{'uniqueID':'ctl00$pnlContainer$searchPopup$searchControl$searchBox$edtQuery$edtArticleTitle$edtFilter$edtQuickFilter','scStates':2,'scPostfix':'DefaultTheme','customValidationEnabled':true,'isValid':true,'errorText':'Invalid value','isErrorFrameRequired':true,'display':'Dynamic','errorDisplayMode':'i','errorImageIsAssigned':true,'controlCellStyles':{'cssClass':'dxeErrorFrame_DefaultTheme dxeErrorFrameSys dxeNoBorderRight dxeControlsCell_DefaultTheme','style':'width:100%;'},'autoCompleteAttribute':{'name':'autocomplete','value':'off'},'buttonCount':3,'clearButtonDisplayMode':'Never'},{'Init':function(s,e){window['CI__299402704'].onTextBoxInit(s,e);},'KeyDown':function(s,e){window['CI__299402704'].onTextBoxKeyDown(s,e);},'KeyUp':function(s,e){window['CI__299402704'].onTextBoxKeyUp(s,e);},'ButtonClick':function(s,e){window['CI__299402704'].onTextBoxButtonClick(s,e);}},null,{'decorationStyles':[{'key':'I','className':'dxeInvalid_DefaultTheme','cssText':''},{'key':'F','className':'dxeFocused_DefaultTheme QuickFilterBox_focused','cssText':''}]});
+
+//-->
+</script>
+
+<input type="hidden" id="ctl00$pnlContainer$searchPopup$searchControl$searchBox$edtQuery$edtArticleTitle$edtFilter$hiState" name="ctl00$pnlContainer$searchPopup$searchControl$searchBox$edtQuery$edtArticleTitle$edtFilter$hiState" value><script id="dxss_1765085836" type="text/javascript">
+<!--
+ASPx.createControl(ASPxClientHiddenField,'pnlContainer_searchPopup_searchControl_searchBox_edtQuery_edtArticleTitle_edtFilter_hiState','CI__1809293843',{'callBack':function(arg) { WebForm_DoCallback('ctl00$pnlContainer$searchPopup$searchControl$searchBox$edtQuery$edtArticleTitle$edtFilter$hiState',arg,ASPx.Callback,'pnlContainer_searchPopup_searchControl_searchBox_edtQuery_edtArticleTitle_edtFilter_hiState',ASPx.CallbackError,true); },'uniqueID':'ctl00$pnlContainer$searchPopup$searchControl$searchBox$edtQuery$edtArticleTitle$edtFilter$hiState'});
+
+//-->
+</script>
+
+<script id="dxss_CI__299402704" type="text/javascript">//<!--
+window['CI__299402704']=new QuickFilterBox('CI__1410058733',400,false,'CI_112027378','CI_1673367730','[Custom Filter]',true,'CI__1809293843','search');window['CI__299402704'].onFilterChanged=function(s,e){window['CI_413042978'].onChangedFilter(s,e);};window['CI__299402704'].onButtonClicked=function(s,e){window['CI_413042978'].onEditorButtonClicked(s,e);};window['CI__299402704'].onGotFocus=function(s,e){window['CI_413042978'].onEditorGotFocus(s,e);};window['CI__299402704'].onKeyDown=function(s,e){window['CI_413042978'].onEditorKeyDown(s,e);};
+//--></script>
+  </div>
+  <div id="pnlContainer_searchPopup_searchControl_searchBox_edtQuery_edtArticleTitle_pnlCompletions" class="AutoCompletionBox_completionWindow SearchBox_completionWindow">
+    <div id="pnlContainer_searchPopup_searchControl_searchBox_edtQuery_edtArticleTitle_pnlCompletionsList"></div>
+  </div>
+</div>
+<input type="hidden" id="ctl00$pnlContainer$searchPopup$searchControl$searchBox$edtQuery$edtArticleTitle$hiState" name="ctl00$pnlContainer$searchPopup$searchControl$searchBox$edtQuery$edtArticleTitle$hiState" value><script id="dxss_1375225345" type="text/javascript">
+<!--
+ASPx.createControl(ASPxClientHiddenField,'pnlContainer_searchPopup_searchControl_searchBox_edtQuery_edtArticleTitle_hiState','CI_795100283',{'callBack':function(arg) { WebForm_DoCallback('ctl00$pnlContainer$searchPopup$searchControl$searchBox$edtQuery$edtArticleTitle$hiState',arg,ASPx.Callback,'pnlContainer_searchPopup_searchControl_searchBox_edtQuery_edtArticleTitle_hiState',ASPx.CallbackError,true); },'uniqueID':'ctl00$pnlContainer$searchPopup$searchControl$searchBox$edtQuery$edtArticleTitle$hiState'});
+
+//-->
+</script><script id="dxss_CI_413042978" type="text/javascript">//<!--
+window['CI_413042978']=new AutoCompletionBox({"pnlCompletionsName":"pnlContainer_searchPopup_searchControl_searchBox_edtQuery_edtArticleTitle_pnlCompletions","pnlCompletionsListName":"pnlContainer_searchPopup_searchControl_searchBox_edtQuery_edtArticleTitle_pnlCompletionsList","editorName":"CI__299402704","stateName":"CI_795100283","pnlContainerName":"pnlContainer_searchPopup_searchControl_searchBox_edtQuery_edtArticleTitle_pnlContainer","startTypingText":null},{"isListOnly":false,"completionItemTemplate":"","isAllowCompletionItemFocusFromKeyboard":true});window['CI_413042978'].onGetCompletions=function(s,e){window['CI_1465363442'].onCompletionsGet(s,e);};window['CI_413042978'].onSelectedItemChanged=function(s,e){window['CI_1465363442'].onSelectedItemChanged(s,e);};window['CI_413042978'].onLostFocus=function(s,e){window['CI__1881927048'].onSearchBoxLostFocus(s,e);};window['CI_413042978'].onButtonClick=function(s,e){window['CI_1465363442'].onClickButton(s,e);};window['CI_413042978'].onKeyDown=function(s,e){window['CI_1465363442'].onEditorKeyDown(s,e);};
+//--></script>
+
+<input type="hidden" id="ctl00$pnlContainer$searchPopup$searchControl$searchBox$edtQuery$hiState" name="ctl00$pnlContainer$searchPopup$searchControl$searchBox$edtQuery$hiState" value><script id="dxss_1712318351" type="text/javascript">
+<!--
+ASPx.createControl(ASPxClientHiddenField,'pnlContainer_searchPopup_searchControl_searchBox_edtQuery_hiState','CI_497756261',{'callBack':function(arg) { WebForm_DoCallback('ctl00$pnlContainer$searchPopup$searchControl$searchBox$edtQuery$hiState',arg,ASPx.Callback,'pnlContainer_searchPopup_searchControl_searchBox_edtQuery_hiState',ASPx.CallbackError,true); },'uniqueID':'ctl00$pnlContainer$searchPopup$searchControl$searchBox$edtQuery$hiState'});
+
+//-->
+</script><script id="dxss_CI_1465363442" type="text/javascript">//<!--
+window['CI_1465363442']=new ArticleCompletionBox({"editorName":"CI_413042978","stateName":"CI_497756261","serviceUrl":null,"recentArticlesType":"ViewedArticles","lblArticlesAvailableName":"pnlContainer_searchPopup_searchControl_searchBox_edtQuery_lblArticlesAvailable","isShowSelectedUrl":"0","maxResultCount":"10"});window['CI_1465363442'].onArticleChanged=function(s,e){window['CI_504995854'].onArticleSelectedInCompletion(s,e);};window['CI_1465363442'].onGetCompletions=function(s,e){window['CI_504995854'].onGetCompletions(s,e);};window['CI_1465363442'].onKeyDown=function(s,e){window['CI_504995854'].onEditorKeyDown(s,e);};
+//--></script>
+    </td>
+		</tr>
+	</table>
+	
+<script id="dxss_CI_504995854" type="text/javascript">//<!--
+window['CI_504995854']=new SearchBox('CI_1465363442','0');window['CI_504995854'].onDoSearch=function(s,e){window['CI__1881927048'].onSearchBoxDoSearch(s,e);};
+//--></script>
+    </div>
+    <div id="pnlContainer_searchPopup_searchControl_pnlFilterBy" class="SearchControl_pnlFilterBy">
+      <div class="SearchControl_filterByText">
+        Filter by:
+      </div>
+      <div class="SearchControl_filterByComboBoxContainer">
+        <div id="pnlContainer_searchPopup_searchControl_edtProjects_pnlWidthTester" class="ProjectsTreeDropdown_pnlWidthTester"></div>
+<table class="dxeButtonEditSys dxeButtonEdit_DefaultTheme SearchControl_comboBox dxeReadOnly_DefaultTheme" cellspacing="1" cellpadding="0" id="pnlContainer_searchPopup_searchControl_edtProjects_editor" width="100%">
+		<tr>
+			<td class="dxic" onmousedown="return ASPx.DDMC_MD(&#39;pnlContainer_searchPopup_searchControl_edtProjects_editor&#39;, event)" width="100%"><input class="dxeEditArea_DefaultTheme dxeEditAreaSys dxeHideDefaultIEClearBtnSys" id="pnlContainer_searchPopup_searchControl_edtProjects_editor_I" name="ctl00$pnlContainer$searchPopup$searchControl$edtProjects$editor" readonly="readonly" onchange="ASPx.ETextChanged(&#39;pnlContainer_searchPopup_searchControl_edtProjects_editor&#39;)" type="text"></td><td id="pnlContainer_searchPopup_searchControl_edtProjects_editor_B-1" class="dxeButton dxeButtonEditButton_DefaultTheme" style="user-select:none;-khtml-user-select:none;-ms-user-select:none;"><img id="pnlContainer_searchPopup_searchControl_edtProjects_editor_B-1Img" class="dxEditors_edtDropDown_DefaultTheme" src="DXR.axd" alt="v"></td>
+		</tr>
+	</table><div id="pnlContainer_searchPopup_searchControl_edtProjects_editor_DDD_PW-1" class="dxpcDropDown_DefaultTheme dxpclW dxpc-ddSys dxdd-root" style="z-index:10000;display:none;visibility:hidden;">
+		<div class="dxpc-mainDiv dxdd-dde dxpc-shadow">
+			<div class="dxpc-contentWrapper">
+				<div class="dxeDropDownWindow_DefaultTheme dxpc-content" style="padding-left:0px;padding-right:0px;padding-top:0px;padding-bottom:0px;">
+					<div id="pnlContainer_searchPopup_searchControl_edtProjects_editor_DDD_DDDC">
+						
+    <div class="ProjectsTreeDropdown_dropDownContainer">      
+      
+
+
+
+<div id="pnlContainer_searchPopup_searchControl_edtProjects_editor_DDD_projectsTree_0_pnlProjectsTree_0">
+</div>
+<script id="dxss_CI__163631499_ts" type="text/javascript">//<!--
+window['CI__163631499_tree']=new CHTree('pnlContainer_searchPopup_searchControl_edtProjects_editor_DDD_projectsTree_0_pnlProjectsTree_0',{"nodeBtnPosition":"right","multiSelectMode":"","mobileViewMode":"never","mobileViewWidthThreshold":979,"focusedNodeId":"0","expandLevels":-1,"maxLevel":0,"isSubmitExpandedNodesToServer":false,"isEscapeNodeText":true,"isDragAndDrop":false,"isReadOnly":false,"isHighlightFocusedNode":true,"cssClasses":{"tree":"ProjectsTree_treeContainer","treeDisabled":null,"node":null,"nodeUnfocusable":"ProjectsTree_nodeUnfocusable","nodeBtn":null,"nodeSelect":null,"nodeContent":"ProjectsTree_noIconNode","btnExpand":null,"btnCollapse":null,"nodeChildren":null,"nodeChildrenExpanded":null,"nodeChildrenCollapsed":null,"nodeFocused":null,"nodeContentExpanded":null,"nodeContentCollapsed":null,"nodeContentWithoutChildren":null},"templates":{"nodeContent":"\u003cdiv class=\u0027ProjectsTree_nodeImg\u0027\u003e\u003cimg src=\u0027{{imgUrl}}\u0027/\u003e\u003c/div\u003e\u003cdiv class=\u0027ProjectsTree_nodeText\u0027\u003e{{T}}{{langHtml}}{{externalIdHtml}}\u003c/div\u003e","expandCollapseButton":"\u003ci class=\u0027fal fa-angle-down\u0027\u003e\u003c/i\u003e"},"text":{"delayLoadTriggerNode":null,"back":null,"expandNode":null,"collapseNode":null},"actionButtons":[],"isUseFontAwesomeIcons":false,"fontAwesomeVersion":"","isExpandCollapseEffects":true,"delayLoadServiceUrl":null},[{"id":"-2","t":"All publications in all languages","imgs":{},"c":[],"s":-1,"d":0,"e":0,"vals":{"externalId":"-2","_containerCustomCssClass":"ProjectsTreeDropdown_extraRootLevelNode","langCode":"","imgUrl":"/Images/empty.png","langHtml":"","externalIdHtml":""}},{"id":"-1","t":"All publications - English (United States)","imgs":{},"c":[],"s":-1,"d":0,"e":0,"vals":{"externalId":"-1","_containerCustomCssClass":"ProjectsTreeDropdown_extraRootLevelNode","langCode":"","imgUrl":"/Images/empty.png","langHtml":"","externalIdHtml":""}},{"id":"151","t":"Copado CI-CD Publication","imgs":{},"c":[],"s":-1,"d":0,"e":0,"vals":{"imgUrl":"/Images/empty.png","langHtml":"","externalIdHtml":"","langCode":"en-US","openUrl":"https://docs.copado.com/articles/copado-ci-cd-publication","openTopicEditorUrl":"/articles/copado-ci-cd-publication","settingsUrl":"/project-settings/copado-ci-cd-publication/basic","reportsUrl":"/reports/copado-ci-cd-publication/","isPublication":"true","externalId":"copado-ci-cd-publication"}},{"id":"141","t":"Copado Developer Center Publication","imgs":{},"c":[],"s":-1,"d":0,"e":0,"vals":{"imgUrl":"/Images/empty.png","langHtml":"","externalIdHtml":"","langCode":"en-US","openUrl":"https://docs.copado.com/articles/copado-developer-center-publication","openTopicEditorUrl":"/articles/copado-developer-center-publication","settingsUrl":"/project-settings/copado-developer-center-publication/basic","reportsUrl":"/reports/copado-developer-center-publication/","isPublication":"true","externalId":"copado-developer-center-publication"}},{"id":"146","t":"Copado Methodology","imgs":{},"c":[],"s":-1,"d":0,"e":0,"vals":{"imgUrl":"/Images/empty.png","langHtml":"","externalIdHtml":"","langCode":"en-US","openUrl":"https://docs.copado.com/articles/copado-methodology-temp","openTopicEditorUrl":"/articles/copado-methodology-temp","settingsUrl":"/project-settings/copado-methodology-temp/basic","reportsUrl":"/reports/copado-methodology-temp/","isPublication":"true","externalId":"copado-methodology-temp"}},{"id":"160","t":"Copado Robotic Testing Publication","imgs":{},"c":[],"s":-1,"d":0,"e":0,"vals":{"imgUrl":"/Images/empty.png","langHtml":"","externalIdHtml":"","langCode":"en-US","openUrl":"https://docs.copado.com/articles/copado-robotic-testing-publication","openTopicEditorUrl":"/articles/copado-robotic-testing-publication","settingsUrl":"/project-settings/copado-robotic-testing-publication/basic","reportsUrl":"/reports/copado-robotic-testing-publication/","isPublication":"true","externalId":"copado-robotic-testing-publication"}},{"id":"157","t":"copadoGPT Publication","imgs":{},"c":[],"s":-1,"d":0,"e":0,"vals":{"imgUrl":"/Images/empty.png","langHtml":"","externalIdHtml":"","langCode":"en-US","openUrl":"https://docs.copado.com/articles/copadogpt","openTopicEditorUrl":"/articles/copadogpt","settingsUrl":"/project-settings/copadogpt/basic","reportsUrl":"/reports/copadogpt/","isPublication":"true","externalId":"copadogpt"}}],null);window['CI__163631499_tree'].onFocusedNodeChanging=function(s,e){window['CI__163631499'].onFocusedNodeChanging(s,e);};window['CI__163631499_tree'].onFocusedNodeChanged=function(s,e){window['CI__163631499'].onFocusedNodeChanged(s,e);};window['CI__163631499_tree'].onNodeSelecting=function(s,e){window['CI__163631499'].onNodeSelecting(s,e);};window['CI__163631499_tree'].onNodeSelected=function(s,e){window['CI__163631499'].onNodeSelected(s,e);};window['CI__163631499_tree'].onNodeDblClick=function(s,e){window['CI__163631499'].onNodeDblClick(s,e);};window['CI__163631499_tree'].onNodeAuxClick=function(s,e){window['CI__163631499'].onNodeAuxClick(s,e);};
+//--></script>
+<script id="dxss_CI__163631499" type="text/javascript">//<!--
+window['CI__163631499']=new ProjectsTree({"treeControlName":"CI__163631499_tree","languageSelectorName":"CI__1242821044","edtFilterName":"CI_1583856518","pnlFilterBoxName":"pnlContainer_searchPopup_searchControl_edtProjects_editor_DDD_projectsTree_0_pnlFilterBox_0","langSelectedCssClass":"ProjectsTree_langSelected","filterBoxFocusedCssClass":"ProjectsTree_filterBoxFocused","invisibleNodeCssClass":"ProjectsTree_invisibleNode","nodeWithInvisibleChildrenCssClass":"ProjectsTree_nodeWithInvisibleChildren"});window['CI__163631499'].onFocusedProjectChanging=function(s,e){window['CI_2085927162'].onChangingFocusedProject(s,e);};window['CI__163631499'].onFocusedProjectChanged=function(s,e){window['CI_2085927162'].onChangedFocusedProject(s,e);};window['CI__163631499'].onSelectedProjectsChanged=function(s,e){window['CI_2085927162'].onChangedSelectedProjects(s,e);};window['CI__163631499'].onProjectAuxClick=function(s,e){window['CI_2085927162'].onProjectAuxClick(s,e);};window['CI__163631499'].onLanguageChanged=function(s,e){window['CI_2085927162'].onLanguageChanged(s,e);};
+//--></script>
+    </div>
+  
+					</div>
+				</div>
+			</div>
+		</div>
+	</div><script id="dxss_2119448986" type="text/javascript">
+<!--
+ASPx.AddHoverItems('pnlContainer_searchPopup_searchControl_edtProjects_editor_DDD',[[['dxpc-closeBtnHover'],[''],['HCB-1']]]);
+ASPx.createControl(ASPxClientPopupControl,'pnlContainer_searchPopup_searchControl_edtProjects_editor_DDD','',{'uniqueID':'ctl00$pnlContainer$searchPopup$searchControl$edtProjects$editor$DDD','popupAnimationType':'slide','closeAction':'CloseButton','popupHorizontalAlign':'RightSides','popupVerticalAlign':'Below','isPopupPositionCorrectionOn':false},{'Shown':function (s, e) { ASPx.DDBPCShown('pnlContainer_searchPopup_searchControl_edtProjects_editor', e); }});
+
+//-->
+</script><script id="dxss_1161243825" type="text/javascript">
+<!--
+ASPx.AddHoverItems('pnlContainer_searchPopup_searchControl_edtProjects_editor',[[['dxeButtonEditButtonHover_DefaultTheme'],[''],['B-1']]]);
+ASPx.RemoveHoverItems('pnlContainer_searchPopup_searchControl_edtProjects_editor',[[['B-100']]]);
+ASPx.AddPressedItems('pnlContainer_searchPopup_searchControl_edtProjects_editor',[[['dxeButtonEditButtonPressed_DefaultTheme'],[''],['B-1']]]);
+ASPx.RemovePressedItems('pnlContainer_searchPopup_searchControl_edtProjects_editor',[[['B-100']]]);
+ASPx.AddDisabledItems('pnlContainer_searchPopup_searchControl_edtProjects_editor',[[['dxeDisabled_DefaultTheme'],[''],['','I']],[['dxeDisabled_DefaultTheme dxeButtonDisabled_DefaultTheme'],[''],['B-1'],,[[{'spriteCssClass':'dxEditors_edtDropDownDisabled_DefaultTheme'}]],['Img']]]);
+ASPx.RemoveDisabledItems('pnlContainer_searchPopup_searchControl_edtProjects_editor',[[['B-100'],]]);
+ASPx.createControl(ASPxClientDropDownEdit,'pnlContainer_searchPopup_searchControl_edtProjects_editor','CI_1427986738',{'uniqueID':'ctl00$pnlContainer$searchPopup$searchControl$edtProjects$editor','stateObject':{'keyValue':null},'readOnly':true,'autoCompleteAttribute':{'name':'autocomplete','value':'off'},'clearButtonDisplayMode':'Never'},{'Init':function(s,e){window['CI_2085927162'].onEditorInit(s,e);},'KeyDown':function(s,e){window['CI_2085927162'].onEditorKeyDown(s,e);}},null,{'decorationStyles':[{'key':'F','className':'dxeFocused_DefaultTheme','cssText':''}]});
+
+//-->
+</script><script id="dxss_CI_2085927162" type="text/javascript">//<!--
+window['CI_2085927162']=new ProjectsTreeDropdown({"editorName":"CI_1427986738","pnlWidthTesterName":"pnlContainer_searchPopup_searchControl_edtProjects_pnlWidthTester","projectsTreeName":"CI__163631499","isUseDynamicWidthCalculation":"0","editorAriaLabel":"Projects","nSelectedText":"{0} selected"});window['CI_2085927162'].onFocusedProjectChanged=function(s,e){window['CI__1881927048'].onProjectSelected(s,e);};
+//--></script>
+      </div>
+    </div>
+    
+    <div id="pnlContainer_searchPopup_searchControl_pnlSuggestedSearches" class="SearchControl_suggestedSearchContainer">
+    </div>
+  </div>
+
+  <div class="dxpnlControl_DefaultTheme SearchControl_pnlResults" id="pnlContainer_searchPopup_searchControl_pnlCallback">
+		
+        <script id="dxss_CI_1769584611" type="text/javascript">//<!--
+window['CI_1769584611']=new ProgressLine({"containerCssClass":"ProgressLine_container","targetElementName":null,"position":"manual","associatedControlName":"CI__943911538"});
+//--></script>
+        
+        
+          
+        
+
+        <div class="SearchControl_scrollableResultsList"> 
+
+          
+
+          <ul class="SearchControl_resultsList">
+            
+          </ul>
+          
+          <div class="SearchControl_lnkMoreResultsContainer">
+            
+          </div>
+          <div class="SearchControl_lnkSearchEntirePortalContainer">
+            <a href="search.html#q/" id="pnlContainer_searchPopup_searchControl_pnlCallback_lnkSearchEntirePortal" class="SearchControl_footerLink SearchControl_lnkSearchEntirePortal" style="display:;">
+              <i class="fal fa-file-search"></i>
+              Search entire portal
+            </a>
+          </div>
+        </div>
+
+        <input type="hidden" id="ctl00$pnlContainer$searchPopup$searchControl$pnlCallback$hiState" name="ctl00$pnlContainer$searchPopup$searchControl$pnlCallback$hiState" value><script id="dxss_784848744" type="text/javascript">
+<!--
+ASPx.createControl(ASPxClientHiddenField,'pnlContainer_searchPopup_searchControl_pnlCallback_hiState','CI_707695253',{'callBack':function(arg) { WebForm_DoCallback('ctl00$pnlContainer$searchPopup$searchControl$pnlCallback$hiState',arg,ASPx.Callback,'pnlContainer_searchPopup_searchControl_pnlCallback_hiState',ASPx.CallbackError,true); },'uniqueID':'ctl00$pnlContainer$searchPopup$searchControl$pnlCallback$hiState'});
+
+//-->
+</script>
+
+      
+	</div><table id="pnlContainer_searchPopup_searchControl_pnlCallback_LP" class="dxpnlLoadingPanelWithContent_DefaultTheme dxlpLoadingPanelWithContent_DefaultTheme ProgressLine_loadingPanelHidden" cellspacing="0" cellpadding="0" style="left:0px;top:0px;z-index:30000;display:none;">
+		<tr>
+			<td class="dx" style="padding-right:0px;"><img class="dxlp-loadingImage dxlp-imgPosLeft" src="DXR.axd" alt align="middle"></td><td class="dx" style="padding-left:0px;"><span id="pnlContainer_searchPopup_searchControl_pnlCallback_TL">Loading&hellip;</span></td>
+		</tr>
+	</table><div id="pnlContainer_searchPopup_searchControl_pnlCallback_LD" class="dxpnlLoadingDivWithContent_DefaultTheme dxlpLoadingDivWithContent_DefaultTheme dx-ft dxMSTouchDraggable" style="left:0px;top:0px;z-index:29999;display:none;position:absolute;">
+
+	</div><script id="dxss_416383999" type="text/javascript">
+<!--
+ASPx.createControl(ASPxClientCallbackPanel,'pnlContainer_searchPopup_searchControl_pnlCallback','CI__943911538',{'callBack':function(arg) { WebForm_DoCallback('ctl00$pnlContainer$searchPopup$searchControl$pnlCallback',arg,ASPx.Callback,'pnlContainer_searchPopup_searchControl_pnlCallback',ASPx.CallbackError,true); },'uniqueID':'ctl00$pnlContainer$searchPopup$searchControl$pnlCallback','hideContentOnCallback':false},{'BeginCallback':function(s,e){if(window['CI_1769584611']){window['CI_1769584611'].onBeginCallback(s,e);}},'EndCallback':function(s,e){window['CI__1881927048'].onCallbackEnd(s,e);}});
+
+//-->
+</script>
+</div>
+<script id="dxss_CI__1881927048" type="text/javascript">//<!--
+window['CI__1881927048']=new SearchControl({"stateName":"CI_707695253","pnlCallbackName":"CI__943911538","searchBoxName":"CI_504995854","treeSuggestedSearchName":"CI__1881927048_tree","pnlContainerName":"pnlContainer_searchPopup_searchControl_pnlContainer","edtProjectsName":"CI_2085927162","searchResultsTextMask":"{0} - Search Results","searchResultsTextNoQuery":"Search Results","isPopupMode":true,"titleName":"pnlContainer_searchPopup_searchControl_txtHeading","frameFeaturedSnippetName":"pnlContainer_searchPopup_searchControl_pnlCallback_frameFeaturedSnippet","featuredSnippetMaxHeight":215,"pnlFrameFeaturedSnippetContainerName":"pnlContainer_searchPopup_searchControl_pnlCallback_pnlFrameFeaturedSnippetContainer","searchQueryIdMarker":"qid","internalSourceName":"InternalArticles","progressLineName":"CI_1769584611","pnlSearchBoxName":"pnlContainer_searchPopup_searchControl_pnlSearchBox","pnlFilterByName":"pnlContainer_searchPopup_searchControl_pnlFilterBy"});window['CI__1881927048'].onSearchResultClick=function(s,e){window['CI__1472527818'].onSearchResultClick(s,e);};
+//--></script>
+</div>
+<script id="dxss_CI__1472527818" type="text/javascript">//<!--
+window['CI__1472527818']=new SearchPopupComplex({"pnlSearchPopupName":"pnlContainer_searchPopup_pnlSearchPopup","searchControlName":"CI__1881927048"});
+//--></script>
+        
+</div><script id="dxss_1507860421" type="text/javascript">
+<!--
+ASPx.FillDocumentElementDXThemeCssClassName("DefaultTheme");
+ASPx.createControl(ASPxClientCallbackPanel,'pnlContainer','pnlContainerBaseMaster',{'callBack':function(arg) { WebForm_DoCallback('ctl00$pnlContainer',arg,ASPx.Callback,'pnlContainer',ASPx.CallbackError,true); },'uniqueID':'ctl00$pnlContainer','hideContentOnCallback':false},{'EndCallback':function(s,e){onMasterContainerEndCallback(s,e);}});
+
+//-->
+</script>
+    
+    
+    <script id="dxss_CI_1970185773" type="text/javascript">//<!--
+window['CI_1970185773']=new AnswerGeniusButton({});
+//--></script>
+  <input type="hidden" name="ctl00$hiStorage" id="hiStorage">
+
+<script type="text/javascript">
+//<![CDATA[
+var hiEventValidation = document.getElementById('__EVENTVALIDATION');if(hiEventValidation){hiEventValidation.setAttribute('autocomplete', 'off');}//]]>
+</script>
+</form>  
+</body>
+</html>

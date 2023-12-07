@@ -1,0 +1,954 @@
+.ReaderUiPreview_page .BaseMaster_templateRightSidebar {
+    border-left: 4px solid white
+}
+
+.CHOffCanvasPanel_container {
+    overflow: inherit
+}
+
+@font-face {
+    font-family: 'Hind';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local('Hind Regular'), local('Hind-Regular'), url(../fonts/5aU69_a8oxmIdGd4BCOz.woff2) format('woff2');
+    unicode-range: U+100-24F, U+259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF
+}
+
+@font-face {
+    font-family: 'Hind';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local('Hind Regular'), local('Hind-Regular'), url(../fonts/5aU69_a8oxmIdGl4BA.woff2) format('woff2');
+    unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD
+}
+
+@font-face {
+    font-family: 'Hind';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: local('Hind Bold'), local('Hind-Bold'), url(../fonts/5aU19_a8oxmIfNJdERKSjQpf.woff2) format('woff2');
+    unicode-range: U+100-24F, U+259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF
+}
+
+@font-face {
+    font-family: 'Hind';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: local('Hind Bold'), local('Hind-Bold'), url(../fonts/5aU19_a8oxmIfNJdERySjQ.woff2) format('woff2');
+    unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD
+}
+
+@font-face {
+    font-family: 'Source Code Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local('Source Code Pro Regular'), local('SourceCodePro-Regular'), url(../fonts/HI_SiYsKILxRpg3hIP6sJ7fM7PqlMOvWjMY.woff2) format('woff2');
+    unicode-range: U+460-52F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F
+}
+
+@font-face {
+    font-family: 'Source Code Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local('Source Code Pro Regular'), local('SourceCodePro-Regular'), url(../fonts/HI_SiYsKILxRpg3hIP6sJ7fM7PqlOevWjMY.woff2) format('woff2');
+    unicode-range: U+400-45F, U+490-491, U+4B0-4B1, U+2116
+}
+
+@font-face {
+    font-family: 'Source Code Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local('Source Code Pro Regular'), local('SourceCodePro-Regular'), url(../fonts/HI_SiYsKILxRpg3hIP6sJ7fM7PqlPuvWjMY.woff2) format('woff2');
+    unicode-range: U+370-3FF
+}
+
+@font-face {
+    font-family: 'Source Code Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local('Source Code Pro Regular'), local('SourceCodePro-Regular'), url(../fonts/HI_SiYsKILxRpg3hIP6sJ7fM7PqlMuvWjMY.woff2) format('woff2');
+    unicode-range: U+102-103, U+110-111, U+128-129, U+168-169, U+1A0-1A1, U+1AF-1B0, U+1EA0-1EF9, U+20AB
+}
+
+@font-face {
+    font-family: 'Source Code Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local('Source Code Pro Regular'), local('SourceCodePro-Regular'), url(../fonts/HI_SiYsKILxRpg3hIP6sJ7fM7PqlM-vWjMY.woff2) format('woff2');
+    unicode-range: U+100-24F, U+259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF
+}
+
+@font-face {
+    font-family: 'Source Code Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local('Source Code Pro Regular'), local('SourceCodePro-Regular'), url(../fonts/HI_SiYsKILxRpg3hIP6sJ7fM7PqlPevW.woff2) format('woff2');
+    unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD
+}
+
+@font-face {
+    font-family: 'Source Code Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: local('Source Code Pro Bold'), local('SourceCodePro-Bold'), url(../fonts/HI_XiYsKILxRpg3hIP6sJ7fM7Pqths7Dvucq_mk.woff2) format('woff2');
+    unicode-range: U+460-52F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F
+}
+
+@font-face {
+    font-family: 'Source Code Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: local('Source Code Pro Bold'), local('SourceCodePro-Bold'), url(../fonts/HI_XiYsKILxRpg3hIP6sJ7fM7Pqths7Dt-cq_mk.woff2) format('woff2');
+    unicode-range: U+400-45F, U+490-491, U+4B0-4B1, U+2116
+}
+
+@font-face {
+    font-family: 'Source Code Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: local('Source Code Pro Bold'), local('SourceCodePro-Bold'), url(../fonts/HI_XiYsKILxRpg3hIP6sJ7fM7Pqths7DsOcq_mk.woff2) format('woff2');
+    unicode-range: U+370-3FF
+}
+
+@font-face {
+    font-family: 'Source Code Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: local('Source Code Pro Bold'), local('SourceCodePro-Bold'), url(../fonts/HI_XiYsKILxRpg3hIP6sJ7fM7Pqths7DvOcq_mk.woff2) format('woff2');
+    unicode-range: U+102-103, U+110-111, U+128-129, U+168-169, U+1A0-1A1, U+1AF-1B0, U+1EA0-1EF9, U+20AB
+}
+
+@font-face {
+    font-family: 'Source Code Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: local('Source Code Pro Bold'), local('SourceCodePro-Bold'), url(../fonts/HI_XiYsKILxRpg3hIP6sJ7fM7Pqths7Dvecq_mk.woff2) format('woff2');
+    unicode-range: U+100-24F, U+259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF
+}
+
+@font-face {
+    font-family: 'Source Code Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: local('Source Code Pro Bold'), local('SourceCodePro-Bold'), url(../fonts/HI_XiYsKILxRpg3hIP6sJ7fM7Pqths7Ds-cq.woff2) format('woff2');
+    unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD
+}
+
+body,
+.TocTreeLight_treeContainer .CHTree_tree {
+    font-family: 'Nunito Sans', sans-serif
+}
+
+.desktopView .TocTreeLight_treeContainer .CHTree_tree {
+    padding-left: 32px;
+}
+
+.CHTree_tree::-webkit-scrollbar {
+    background: #F0F3F7;
+}
+
+.BaseMaster_mainMenuContainer .CHMenu_menu .CHMenu_menuItem a,
+.ArticleEditor_templateHeader,
+.BaseMaster_templateRightSidebar {
+    font-family: 'Nunito Sans', sans-serif
+}
+
+.dxeButtonEdit_DefaultTheme,
+.dxeTextBox_DefaultTheme,
+.dxeMemo_DefaultTheme {
+    border-radius: 3px;
+    border: 2px solid #f4f5f6
+}
+
+.grayTextBox {
+    background-color: #fff;
+    border: 0 none;
+    border-radius: 5px
+}
+
+.DeepSpace_pnlProjectNameContainer {
+    display: none;
+    align-items: center;
+    max-width: 380px;
+    width: 100%;
+    padding-left: 40px;
+    padding-right: 40px;
+    box-sizing: border-box;
+    line-height: 75px;
+    height: 75px;
+    background-color: #F0F3F7;
+    color: rgba(255, 255, 255, .8);
+    border-bottom: 1px solid rgba(255, 255, 255, .05)
+}
+
+
+/* .Articles_page.desktopView .DeepSpace_pnlProjectNameContainer {
+    display: flex
+} */
+
+@media screen and (-ms-high-contrast:active),
+(-ms-high-contrast:none) {
+    .Articles_page.desktopView .DeepSpace_pnlProjectNameContainer {
+        min-width: 100%
+    }
+}
+
+.DeepSpace_pnlHeaderLine1OtherControlsContainer {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 75px;
+    padding: 0 40px
+}
+
+.Articles_page .DeepSpace_pnlHeaderLine1OtherControlsContainer {
+    border-bottom: 1px solid #f4f5f6
+}
+
+.Articles_page .BaseMaster_contentContainer.customFixedWidth {
+    margin-left: 0;
+    display: flex;
+    margin-top: 0
+}
+
+.BaseMaster_mainMenuContainer {
+    box-shadow: none;
+    padding: 0;
+    border-bottom: 1px solid #f4f5f6
+}
+
+.mobileView .BaseMaster_mainMenuContainer .BaseMaster_headerSeparator {
+    margin-right: unset;
+}
+
+.BaseMaster_mainMenuContainer .CHMenu_menuItem.BaseMaster_btnSearchMobile,
+.BaseMaster_mainMenuContainer .CHMenu_menuItem.BaseMaster_btnSearchMobile:hover {
+    background-color: transparent !important;
+}
+
+.BaseMaster_mainMenuContainer .BaseMaster_btnSearchMobile i {
+    color: #00C3EF;
+}
+
+.MainMenu_container {
+    height: 75px
+}
+
+.Articles_page .BaseMaster_mainMenuContainer,
+.Home_page .BaseMaster_mainMenuContainer {
+    border-bottom: 0 none
+}
+
+.BaseMaster_mainMenuContainer .CHMenu_menu .CHMenu_menuItem,
+.BaseMaster_mainMenuContainer .BaseMaster_profileLink {
+    min-height: 75px
+}
+
+.BaseMaster_mainMenuContainer .CHMenu_menu .CHMenu_menuItem a {
+    font-weight: bold;
+    font-size: 16px
+}
+
+.CHTree_nodeContainer .CHTree_node:hover {
+    color: #00C3EF !important;
+    /* background-color: #D3E0FB !important; */
+    background-color: transparent !important;
+}
+
+.CHMenu_popup .CHTree_node:hover,
+li.CHMenu_menuItem:hover,
+li.CHMenu_menuItem:hover>a,
+button.BaseMaster_profileLink:hover {
+    cursor: pointer;
+    background-color: transparent!important;
+    color: #00C3EF!important
+}
+
+.BaseMaster_mainMenuContainer .BaseMaster_profileLink {
+    font-weight: bold
+}
+
+
+/* .Articles_page .BaseMaster_mainMenuContainer .BaseMaster_profileLink {
+    display: none
+} */
+
+.BaseMaster_mainMenuContainer .CHMenu_menu .CHMenu_menuItem a,
+.ArticleEditor_templateHeader,
+.BaseMaster_templateRightSidebar {
+    /* text-transform: uppercase */
+}
+
+.BaseMaster_mainMenuContainer .CHMenu_menu .CHMenu_menuItem>a,
+.BaseMaster_profileLink {
+    padding-left: 20px;
+    padding-right: 20px
+}
+
+.DeepSpace_appHeaderLine1 {
+    display: flex;
+    align-items: center;
+    line-height: 75px;
+    height: 75px
+}
+
+.DeepSpace_appHeaderLine1 .LightComboBox_button {
+    padding-right: 5px
+}
+
+.BaseMaster_mainMenuContainer .BaseMaster_imgLogo {
+    padding-top: 0
+}
+
+.BaseMaster_searchBoxContainer {
+    padding: 0
+}
+
+.desktopView .DeepSpace_appHeaderLine1 .BaseMaster_searchBoxContainer {
+    width: 400px;
+    max-width: 400px
+}
+
+.BaseMaster_searchBoxContainer .QuickFilterBox_nullText input,
+.TocTreeLight_filterBox .QuickFilterBox_nullText input {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.ArticleSelector_templateFooter .ReaderUiLanguageSelector_container input.dxeEditArea_DefaultTheme {
+    padding-bottom: 0
+}
+
+.DeepSpace_appHeaderLine1 .BaseMaster_searchBoxContainer input {
+    padding-left: 10px;
+    font-size: 14px;
+    line-height: 35px;
+    height: 35px
+}
+
+.DeepSpace_appHeaderLine1 .BaseMaster_searchBoxContainer .QuickFilterBox_button {
+    margin-right: 5px
+}
+
+.ReaderUiLanguageSelector_container {
+    padding-left: 5px;
+    padding-right: 5px
+}
+
+.ReaderUiLanguageSelector_icon {
+    font-size: 17px
+}
+
+.LightComboBox_container {
+    border: 0 none;
+    background-color: transparent
+}
+
+.ArticleEditor_projectNameComboBox {
+    padding-left: 5px
+}
+
+.ArticleEditor_projectNameLabel {
+    line-height: normal
+}
+
+.ArticleEditor_projectName {
+    color: #192150;
+    font-weight: 700;
+}
+
+.ArticleEditor_projectName,
+.LightComboBox_container input.dxeEditArea_DefaultTheme {
+    background-color: transparent;
+    font-size: 22px
+}
+
+.ArticleSelector_templateHeader {
+    padding: 20px;
+    padding-bottom: 5px;
+    color: rgba(255, 255, 255, .8)
+}
+
+.LightComboBox_button {
+    background-image: url('../images/deep_space_lightcombobox_dropdown_arrow.png')
+}
+
+.LightComboBox_container:hover .LightComboBox_button {
+    background-image: url('../images/deep_space_lightcombobox_dropdown_arrow_hover.png')
+}
+
+.SearchBox_completionWindow .ArticleCompletionBox_itemContainer {
+    padding: 5px;
+    padding-left: 28px
+}
+
+.SearchBox_completionWindow .CHListBox_item.ArticleCompletionBox_itemContainer {
+    background-image: url('../images/topic_20x20.png')!important
+}
+
+.SearchBox_completionWindow .CHListBox_item.ArticleCompletionBox_itemContainer:hover {
+    background-image: url('../images/topic_hover_20x20.png')!important
+}
+
+.DeepSpace_breadcrumb .CHBreadcrumb_separator {
+    padding: 0 7px
+}
+
+.DeepSpace_breadcrumb a {
+    text-decoration: none
+}
+
+.BaseMaster_mainMenuContainer .DeepSpace_breadcrumb a:hover {
+    color: #00C3EF
+}
+
+.BaseMaster_templateHeader.customFixedWidth {
+    max-width: none;
+    margin-left: 0
+}
+
+.ArticleSelector_tabContent {
+    padding: 0
+}
+
+.ArticleSelector_container {
+    background: #F0F3F7
+}
+
+.TocTreeLight_filterBox .QuickFilterBox_editBox,
+.TocTreeLight_filterBox .QuickFilterBox_editBox input,
+.IndexViewerLight_menuContainer .IndexViewerLight_quickFilterContainer,
+.IndexViewerLight_menuContainer .IndexViewerLight_quickFilterContainer input {
+    background: rgba(0, 0, 0, .17);
+    border: 0 none;
+    color: rgba(255, 255, 255, .5);
+    font-family: 'Source Code Pro', monospace
+}
+
+.IndexViewerLight_menuContainer .IndexViewerLight_quickFilterContainer input::placeholder {
+    text-transform: uppercase;
+    opacity: 1;
+    color: rgba(255, 255, 255, .5)
+}
+
+.TocTreeLight_filterBox .QuickFilterBox_editBox input,
+.IndexViewerLight_menuContainer .IndexViewerLight_quickFilterContainer input {
+    border: 0 none;
+    background: transparent
+}
+
+.TocTreeLight_filterBox .QuickFilterBox_editBox input {
+    line-height: 30px;
+    height: 30px;
+    padding: 0 10px
+}
+
+.IndexViewerLight_quickFilterContainer {
+    padding: 12px;
+    border-radius: 3px
+}
+
+.IndexViewerLight_menuContainer .IndexViewerLight_quickFilterContainer input {
+    font-size: 12px;
+    padding: 0
+}
+
+.TocTreeLight_headerContainer,
+.IndexViewerLight_menuContainer {
+    padding-left: 0
+}
+
+.TocTreeLight_pnlShowIndex,
+.IndexViewerLight_pnlShowContents {
+    border: 1px solid rgba(255, 255, 255, .05);
+    border-radius: 3px;
+    margin-top: 10px
+}
+
+.TocTreeLight_pnlShowIndex button,
+.IndexViewerLight_pnlShowContents button {
+    border-radius: 3px;
+    color: rgba(255, 255, 255, .8);
+    text-transform: uppercase;
+    font-family: 'Source Code Pro', monospace
+}
+
+.IndexViewerLight_menuContainer {
+    padding-bottom: 20px;
+    padding-top: 20px
+}
+
+.TocTreeLight_headerContainer {
+    padding-top: 20px;
+    padding-bottom: 0
+}
+
+.TocTreeLight_withFilter .TocTreeLight_headerContainer,
+.TocTreeLight_withShowIndex .TocTreeLight_headerContainer {
+    padding-bottom: 20px
+}
+
+.ArticleEditor_contentFrame {
+    padding: 0 50px;
+    box-sizing: border-box
+}
+
+.ArticleEditor_header {
+    padding: 30px 50px 0 50px
+}
+
+.ArticleEditor_header .DeepSpace_articleHeaderLine1 {
+    font-size: 10px
+}
+
+.ArticleEditor_header .DeepSpace_articleHeaderLine1 .DeepSpace_breadcrumb a:hover {
+    color: #00C3EF
+}
+
+.ArticleEditor_header .DeepSpace_articleHeaderLine1 a,
+.ArticleEditor_header .DeepSpace_articleHeaderLine1 a:visited {
+    color: #192150
+}
+
+.DeepSpace_articleHeaderLine1 {
+    display: flex;
+    align-items: center
+}
+
+.ArticleEditor_header .TimeToRead_container::before {
+    content: "\b7";
+    padding-left: 10px;
+    padding-right: 3px
+}
+
+.TimeToRead_container i {
+    display: none
+}
+
+.DeepSpace_articleHeaderLine2 {
+    padding-top: 10px
+}
+
+.ArticleEditor_header {
+    border-bottom: 0 none
+}
+
+.TocTreeLight_headerContainer,
+.IndexViewerLight_menuContainer {
+    border-bottom: 1px solid rgba(255, 255, 255, .05);
+    padding-left: 20px;
+    padding-right: 20px
+}
+
+.TocTreeLight_treeContainer,
+.IndexViewerLight_contentContainer {
+    padding: 0 20px;
+    padding-right: 0;
+}
+
+.mobileView .Articles_nav .TocTreeLight_headerContainer {
+    padding-right: 20px;
+}
+
+.IndexViewerLight_contentContainer {
+    width: auto
+}
+
+.TocTreeLight_btnBatch {
+    padding-top: 5px;
+    padding-bottom: 5px
+}
+
+.TocTreeLight_btnBatch i {
+    color: black
+}
+
+.TocTreeLight_btnBatch:hover i {
+    color: #fff
+}
+
+.TocTreeLight_treeContainer .CHTree_node,
+.IndexViewerLight_contentContainer .CHTree_node {
+    font-size: 14px;
+    color: black;
+}
+
+.TocTreeLight_treeContainer .CHTree_nodeContent,
+.IndexViewerLight_contentContainer .CHTree_nodeContent {
+    padding-top: 12px;
+    padding-bottom: 12px
+}
+
+.TocTreeLight_treeContainer div.CHTree_nodeContent,
+.IndexViewerLight_contentContainer div.CHTree_nodeContent {
+    padding-left: 2px;
+    padding-right: 40px;
+}
+
+.TocTreeLight_treeContainer .CHTree_nodeFocused,
+.IndexViewerLight_contentContainer .CHTree_nodeFocused {
+    color: black !important;
+    background-color: transparent !important
+}
+
+.TocTreeLight_treeContainer .CHTree_nodeFocused,
+.IndexViewerLight_contentContainer .CHTree_nodeFocused {
+    color: black;
+    background-color: #1659e91c !important;
+}
+
+.TocTreeLight_treeContainer .CHTree_nodeFocused:hover .CHTree_nodeContent,
+.IndexViewerLight_contentContainer .CHTree_nodeFocused:hover .CHTree_nodeContent {
+    color: #00C3EF !important;
+}
+
+.TocTreeLight_treeContainer .CHTree_mobileView .CHTree_nodeBack div.CHTree_nodeContent {
+    padding-left: 8px
+}
+
+.TocTreeLight_treeContainer .CHTree_mobileView .CHTree_btn {
+    padding-right: 0
+}
+
+.TocTreeLight_treeContainer .CHTree_btn,
+.IndexViewerLight_contentContainer .CHTree_btn {
+    padding-bottom: 2px;
+    padding-right: 5px
+}
+
+.TocTreeLight_imgBook,
+.TocTreeLight_imgBook_open,
+.TocTreeLight_imgTopic {
+    background-image: none!important
+}
+
+.ArticleSelector_templateFooter {
+    border-top: 1px solid rgba(255, 255, 255, .05);
+    padding: 0 40px
+}
+
+.ArticleSelector_templateFooter,
+.BaseMaster_profileLink,
+.ArticleSelector_templateFooter .ReaderUiLanguageSelector_container input.dxeEditArea_DefaultTheme {
+    color: #192150;
+    font-family: 'Nunito Sans', sans-serif;
+    text-transform: uppercase;
+    font-size: 14px
+}
+
+.ArticleSelector_templateFooter .BaseMaster_profileLink {
+    float: none;
+    margin-left: 0;
+    padding: 0
+}
+
+.DeepSpace_footerLine1 {
+    display: flex
+}
+
+.mobileView .ArticleSelector_templateFooter .ReaderUiLanguageSelector_container {
+    display: none
+}
+
+.ArticleTitle_container {
+    font-family: Hind, sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    text-transform: none
+}
+
+.DeepSpace_articleHeaderLine1 {
+    color: #696969
+}
+
+.CHImageButton.ArticleEditor_imageButton.ArticleEditor_fontAwesomeButton {
+    width: 35px;
+    height: 35px;
+    font-size: 24px;
+    margin-right: 15px
+}
+
+.Articles_content {
+    flex: 1
+}
+
+.BaseMaster_templateRightSidebar {
+    position: static;
+    transform: none;
+    padding-top: 100px
+}
+
+.DeepSpace_pnlRightSidebarStickyContent {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 75px;
+    padding: 30px;
+    padding-left: 0;
+    font-size: 14px
+}
+
+.DeepSpace_pnlRightSidebarStickyContent li a,
+.DeepSpace_pnlRightSidebarStickyContent li a:visited {
+    text-decoration: none;
+    text-transform: none
+}
+
+.DeepSpace_pnlRightSidebarStickyContent ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #f4f5f6
+}
+
+.DeepSpace_pnlRightSidebarStickyContent li a {
+    display: inline-block;
+    padding: 6px 0;
+    font-family: Hind, sans-serif
+}
+
+.DeepSpace_pnlRightSidebarStickyContent li.CHMiniToc_heading3 a,
+.DeepSpace_pnlRightSidebarStickyContent li.CHMiniToc_heading4 a,
+.DeepSpace_pnlRightSidebarStickyContent li.CHMiniToc_heading5 a,
+.DeepSpace_pnlRightSidebarStickyContent li.CHMiniToc_heading6 a {
+    padding-left: 20px
+}
+
+.DeepSpace_pnlRightSidebarStickyContent li a:hover {
+    color: #00C3EF
+}
+
+.DeepSpace_pnlRightSidebarStickyContent .CHNavCaption {
+    padding-bottom: 20px;
+    display: block
+}
+
+.ArticleEditor_readerFeedbackCaption {
+    padding-top: 15px;
+    padding-bottom: 10px
+}
+
+.DeepSpace_btnRate {
+    font-size: 24px;
+    width: 38px;
+    padding: 5px;
+    margin-right: 10px
+}
+
+.DeepSpace_btnRate:last-child {
+    margin-right: 0
+}
+
+.DeepSpace_sidebarControlsContainer {
+    border-top: 1px solid #f4f5f6;
+    padding-top: 15px;
+    margin-top: 25px;
+    display: flex;
+    align-items: center
+}
+
+.BaseMaster_offCanvasHeader {
+    border-bottom: 0 none;
+    background-color: #F0F3F7 !important;
+}
+
+.BaseMaster_offCanvasContent .BaseMaster_mainMenu {
+    border-top: 1px solid #f4f5f6
+}
+
+.mobileView .DeepSpace_pnlHeaderLine1OtherControlsContainer {
+    padding-left: 20px;
+    padding-right: 20px
+}
+
+.mobileView .DeepSpace_pnlProjectNameContainer {
+    display: none
+}
+
+.mobileView .ArticleEditor_header,
+.mobileView .ArticleEditor_contentFrame {
+    padding-left: 30px;
+    padding-right: 30px
+}
+
+.TocTreeLight_treeContainer .CHTree_mobileView .CHTree_nodeChildren,
+.IndexViewerLight_contentContainer .CHTree_mobileView .CHTree_nodeChildren {
+    background-color: #F0F3F7
+}
+
+.TocTreeLight_treeContainer .CHTree_nodeBack,
+.IndexViewerLight_contentContainer .CHTree_nodeBack {
+    background: rgba(0, 0, 0, .17)
+}
+
+.TocTreeLight_treeContainer .CHTree_nodeBack i,
+.IndexViewerLight_contentContainer .CHTree_nodeBack i {
+    margin-right: 10px;
+    vertical-align: middle
+}
+
+.TocTreeLight_treeContainer .CHTree_nodeBack i {
+    margin-top: -2px;
+}
+
+.IndexViewerLight_contentContainer .CHTree_mobileView .CHTree_btn {
+    padding-bottom: 0
+}
+
+.Articles_page .BaseMaster_offCanvasContent .BaseMaster_mainMenu {
+    background-color: #F0F3F7
+}
+
+.Articles_page .BaseMaster_offCanvasContent .BaseMaster_mainMenu .CHTree_nodeChildren {
+    background-color: #F0F3F7
+}
+
+
+/* .Articles_page .BaseMaster_offCanvasContent .BaseMaster_mainMenu .CHTree_node {
+    color: rgba(255, 255, 255, .8)
+} */
+
+.Articles_page .BaseMaster_offCanvasContent .BaseMaster_mainMenu .CHTree_nodeBack {
+    background-color: rgba(0, 0, 0, .17)
+}
+
+@media(max-width:1790px) {
+    div.Articles_nav {
+        width: 340px
+    }
+    .desktopView .DeepSpace_appHeaderLine1 .BaseMaster_searchBoxContainer {
+        width: 400px;
+        max-width: 400px
+    }
+    .DeepSpace_pnlHeaderLine1OtherControlsContainer {
+        padding-left: 20px;
+        padding-right: 20px
+    }
+    .Articles_page.desktopView .DeepSpace_pnlProjectNameContainer {
+        display: none
+    }
+    .ArticleSelector_templateHeader {
+        /* display: block */
+    }
+    div.Articles_content {
+        margin-left: 340px
+    }
+    .TocTreeLight_headerContainer,
+    .IndexViewerLight_menuContainer,
+    .TocTreeLight_treeContainer,
+    .IndexViewerLight_contentContainer,
+    .DeepSpace_pnlProjectNameContainer {
+        padding-left: 20px;
+        padding-right: 0
+    }
+    .CHTree_nodeContent {
+        padding-right: 26px;
+    }
+    aside.BaseMaster_templateRightSidebar {
+        width: 250px
+    }
+}
+
+@media(max-width:1490px) {
+    .ArticleEditor_header,
+    .ArticleEditor_contentFrame {
+        padding-left: 40px;
+        padding-right: 40px
+    }
+}
+
+@media(max-width:1290px) {
+    aside.BaseMaster_templateRightSidebar {
+        width: 200px
+    }
+}
+
+@media(max-width:1190px) {
+    aside.BaseMaster_templateRightSidebar {
+        width: auto
+    }
+    .DeepSpace_pnlRightSidebarStickyContent {
+        display: none
+    }
+}
+
+@media(max-width:767px) {
+    .LightComboBox_container {
+        margin-left: 0
+    }
+    .DeepSpace_articleHeaderLine1 {
+        align-items: unset
+    }
+    .DeepSpace_breadcrumb .CHBreadcrumb_item {
+        padding-bottom: 10px;
+        display: block
+    }
+    .DeepSpace_breadcrumb .CHBreadcrumb_separator {
+        display: none
+    }
+    .DeepSpace_breadcrumb {
+        display: block
+    }
+}
+
+@media(max-width:480px) {
+    .mobileView .ArticleEditor_header,
+    .mobileView .ArticleEditor_contentFrame {
+        padding-left: 20px;
+        padding-right: 20px
+    }
+    .ArticleEditor_header {
+        padding-top: 20px
+    }
+    .ArticleEditor_header .TimeToRead_container::before {
+        content: none
+    }
+    .DeepSpace_articleHeaderLine1 {
+        display: block
+    }
+    .UpdatedOn_container,
+    .TimeToRead_container {
+        display: block
+    }
+    .UpdatedOn_container {
+        padding-bottom: 10px
+    }
+}
+
+@media(max-height:767px) {
+    .DeepSpace_pnlRightSidebarStickyContent {
+        padding-top: 20px
+    }
+    .DeepSpace_pnlRightSidebarStickyContent .CHNavCaption {
+        padding-bottom: 10px
+    }
+    .DeepSpace_pnlRightSidebarStickyContent li a {
+        padding-top: 3px;
+        padding-bottom: 3px
+    }
+    .DeepSpace_pnlRightSidebarStickyContent ul {
+        padding-bottom: 10px
+    }
+    .DeepSpace_sidebarControlsContainer {
+        padding-top: 10px
+    }
+}
+
+.isNoNavPanel .DeepSpace_pnlProjectNameContainer {
+    min-width: 300px
+}.customFixedWidth{max-width:1800px;margin-left:auto; margin-right:auto;}.isStickyArticleHeader.isStickyNavPanel .ArticleEditor_templateHeader.customFixedWidth{padding-right:380px;}@media(max-width:1800px){.customFixedWidth{max-width:none;}.isStickyArticleHeader.isStickyNavPanel .ArticleEditor_templateHeader.customFixedWidth{padding-right:0px;}}.mobileView .customFixedWidth{max-width:none;}.mobileView .isStickyArticleHeader.isStickyNavPanel .ArticleEditor_templateHeader.customFixedWidth{padding-right:0px;}.mobileView .BaseMaster_templateLeftSidebar,.mobileView .BaseMaster_templateRightSidebar{display:none}.Articles_page body{background-color:#FFFFFF}.ReaderUiPreview_tocNodeHover,.Article_404Content a.CHLinkButton,.CHMenu_menuItem:hover,.CHMenu_menuItem:hover > a,.BaseMaster_profileLink:hover,.BaseMaster_profileLink:hover a,.dxm-hovered,.dxm-hovered a.dx,.BaseMaster_hamburgerMenuIcon:hover,.CHImageButton:hover,.ArticleEditor_fontAwesomeButton:hover i,.LightComboBox_container:hover,.dxeListBoxItemHover_DefaultTheme,.SearchBox_completionWindow .CHListBox_item:hover .ArticleCompletionBox_item,.SearchBox_completionWindow .CHListBox_item:hover .ArticleCompletionBox_projectName,.SearchBox_completionWindow .CHListBox_item:hover a,a.SearchBox_button:hover,.TocTreeLight_btnBatch:hover,.TocTreeLight_pnlShowIndex:hover,.TocTreeLight_pnlShowIndex:hover button,.CHTree_node:hover,.IndexViewerLight_pnlShowContents:hover,.IndexViewerLight_pnlShowContents:hover button,.CHListBox_item:hover,.SearchControl_pnlFilterBy .dxeButtonEditButtonHover_DefaultTheme,.SearchControl_pnlFilterBy .dxeButtonEditButtonPressed_DefaultTheme,.dxbButtonHover_DefaultTheme,.dxbButtonPressed_DefaultTheme,.ArticleEditor_btnWasItHelpful:hover,.Articles_navExpandCollapseSeparator:hover .Articles_btnNavExpandCollapse,.Articles_navExpandCollapseSeparator:hover::before{color:white !important;background-color:#00C3EF !important;}.LightComboBox_container:hover .LightComboBox_button{background-image:url('../images/lightcombo_dropdown_arrow_hover.png')}.SearchBox_completionWindow .ArticleCompletionBox_itemContainer:hover{background-image:url('../images/topic_hover.png') !important}.Article_404Content a,.SearchControl_pnlResults a.SearchControl_searchResultLink:hover{color:#00C3EF !important}.CHHamburger_container:hover span::before,.CHHamburger_container:hover span,.CHHamburger_container:hover span::after{background-color:white !important}.CHTree_nodeFocused,.ArticleEditor_btnWasItHelpful,a.SearchBox_button{color:white !important;background-color:#192150 !important;}.SearchControl_pnlResults a.SearchControl_searchResultLink,.SearchControl_pnlResults a.SearchControl_searchResultLink:visited,.SearchControl_pnlResultsFor a,.SearchControl_pnlResultsFor a:visited,.SearchControl_suggestedSearchContainer a.SearchControl_itemSuggestedSearch{color:#192150 !important}.SearchControl_pnlFeaturedSnippetBox{border-color:#192150}.SearchControl_suggestedSearchContainer a.SearchControl_itemSuggestedSearch:hover{background-color:#1921500A !important}.SearchControl_searchBoxContainer i{color:#192150}.CHMenu_menuItemSelected{border-color:#192150}.extUser_page .dxlp-loadingImage{border-left-color:#192150!important;border-right-color:#192150!important;border-bottom-color:#192150!important}.ProgressLine_container::after{background-color:#192150 !important}.BaseMaster_mainMenuContainer,.BaseMaster_mainMenuContainer a,.BaseMaster_mainMenuContainer a:visited,.BaseMaster_mainMenuContainer .CHMenu_menuItem > a,.BaseMaster_mainMenuContainer .BaseMaster_profileLink{color:#FFFFFF}.BaseMaster_mainMenuContainer .CHHamburger_container span::before,.BaseMaster_mainMenuContainer .CHHamburger_container span,.BaseMaster_mainMenuContainer .CHHamburger_container span::after{background-color:#FFFFFF}.BaseMaster_mainMenuContainer,.Articles_page .BaseMaster_mainMenuContainer{background-color:#192150}.BaseMaster_mainMenuContainer{min-height:75px;}.BaseMaster_templateFooter{display:none}.ArticleEditor_header,.ArticleEditor_header a,.ArticleEditor_header a:visited,.ArticleEditor_header .CHImageButton.ArticleEditor_imageButton.ArticleEditor_fontAwesomeButton{color:#2C3E50}.Articles_nav{width:380px;}.CHOffCanvasPanel_nav.BaseMaster_offCanvasContainer{max-width:380px;}.Articles_content{margin-left:380px;}.Articles_page .BaseMaster_contentContainer,.ArticleSelector_tabContent{background-color:#F0F3F7}.BaseMaster_templateLeftSidebar{display:none}.BaseMaster_templateRightSidebar{width:200px}.BaseMaster_templateRightSidebar{color:#66717A}.BaseMaster_templateRightSidebar a,.BaseMaster_templateRightSidebar a:visited{color:#66717A}.BaseMaster_templateRightSidebar{background-color:#FFFFFF}.UpdatedOn_container{display:none}.Articles_page .PubsList_container{display:none}.BaseMaster_profileLink{display:none}
